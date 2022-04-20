@@ -1,0 +1,6 @@
+testrun: 0, file: testrun_0_original.out: exec_time: 158878100 ns
+testrun: 1, file: testrun_1_original.out: exec_time: 161050300 ns
+testrun: 2, file: testrun_2_original.out: exec_time: 176038600 ns
+testrun: 3, file: testrun_3_original.out: exec_time: 170821700 ns
+testrun: 4, file: testrun_4_original.out: exec_time: 183303000 ns
+avg exec time: 170018340.0 ns

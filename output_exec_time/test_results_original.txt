@@ -1,0 +1,7 @@
+Time test X Quest orignal-Quest runing 10 Qubits and - Block Size is 51866620.0 nsec
+Time test X Quest orignal-Quest runing 11 Qubits and - Block Size is 29768800.0 nsec
+Time test X Quest orignal-Quest runing 12 Qubits and - Block Size is 354102480.0 nsec
+Time test X Quest orignal-Quest runing 13 Qubits and - Block Size is 371319940.0 nsec
+Time test X Quest orignal-Quest runing 14 Qubits and - Block Size is 170018340.0 nsec
+Time test X Quest orignal-Quest runing 15 Qubits and - Block Size is 713578000.0 nsec
+Time test X Quest orignal-Quest runing 16 Qubits and - Block Size is 1383562920.0 nsec
