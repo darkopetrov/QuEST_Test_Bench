@@ -1,6 +1,6 @@
-testrun: 0, file: testrun_0_original.out: exec_time: 460543900 ns
-testrun: 1, file: testrun_1_original.out: exec_time: 797970600 ns
-testrun: 2, file: testrun_2_original.out: exec_time: 93780900 ns
-testrun: 3, file: testrun_3_original.out: exec_time: 424022400 ns
-testrun: 4, file: testrun_4_original.out: exec_time: 80281900 ns
-avg exec time: 371319940.0 ns
+testrun: 0, file: testrun_0_original.out: exec_time: 101404800 ns
+testrun: 1, file: testrun_1_original.out: exec_time: 87167800 ns
+testrun: 2, file: testrun_2_original.out: exec_time: 74625300 ns
+testrun: 3, file: testrun_3_original.out: exec_time: 77424100 ns
+testrun: 4, file: testrun_4_original.out: exec_time: 77592800 ns
+avg exec time: 83642960.0 ns

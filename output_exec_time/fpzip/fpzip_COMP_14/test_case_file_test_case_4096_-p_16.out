@@ -1,6 +1,6 @@
-testrun: 0, file: testrun_0_test_case_4096_-p_16.out: exec_time: 21068920600 ns
-testrun: 1, file: testrun_1_test_case_4096_-p_16.out: exec_time: 21068995500 ns
-testrun: 2, file: testrun_2_test_case_4096_-p_16.out: exec_time: 20999481400 ns
-testrun: 3, file: testrun_3_test_case_4096_-p_16.out: exec_time: 21236170900 ns
-testrun: 4, file: testrun_4_test_case_4096_-p_16.out: exec_time: 21258456200 ns
-avg exec time: 21126404920.0 ns
+testrun: 0, file: testrun_0_test_case_4096_-p_16.out: exec_time: 22110893000 ns
+testrun: 1, file: testrun_1_test_case_4096_-p_16.out: exec_time: 22461631900 ns
+testrun: 2, file: testrun_2_test_case_4096_-p_16.out: exec_time: 23128039100 ns
+testrun: 3, file: testrun_3_test_case_4096_-p_16.out: exec_time: 21443197000 ns
+testrun: 4, file: testrun_4_test_case_4096_-p_16.out: exec_time: 21174776200 ns
+avg exec time: 22063707440.0 ns
