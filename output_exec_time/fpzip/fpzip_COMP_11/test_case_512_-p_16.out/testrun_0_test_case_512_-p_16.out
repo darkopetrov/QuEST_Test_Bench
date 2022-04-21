@@ -1,0 +1,51 @@
+Argv[1]: fpzip
+Maximum values per block: 512
+numQubits: 11, numElems: 2048, numReps: 36
+Original size: 32768 bytes 
+n_blocks: 4, values_per_block: 512
+Creating 4 blocks for memory, Max block size 4096, total Max size: 16384
+Creating 4 blocks for memory, Max block size 4096, total Max size: 16384
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00137711
+[1] prob of solution |7> = 0.00137711
+[2] prob of solution |7> = 0.000976562
+[3] prob of solution |7> = 0.000549316
+[4] prob of solution |7> = 0.00030899
+[5] prob of solution |7> = 0.000149012
+[6] prob of solution |7> = 7.72476e-05
+[7] prob of solution |7> = 3.72529e-05
+[8] prob of solution |7> = 1.52588e-05
+[9] prob of solution |7> = 6.57141e-06
+[10] prob of solution |7> = 2.92063e-06
+[11] prob of solution |7> = 1.20699e-06
+[12] prob of solution |7> = 4.9267e-07
+[13] prob of solution |7> = 2.09548e-07
+[14] prob of solution |7> = 9.31323e-08
+[15] prob of solution |7> = 3.93484e-08
+[16] prob of solution |7> = 1.6822e-08
+[17] prob of solution |7> = 7.04313e-09
+[18] prob of solution |7> = 2.85218e-09
+[19] prob of solution |7> = 1.17871e-09
+[20] prob of solution |7> = 4.40195e-10
+[21] prob of solution |7> = 1.78261e-10
+[22] prob of solution |7> = 7.36691e-11
+[23] prob of solution |7> = 2.75122e-11
+[24] prob of solution |7> = 1.03597e-11
+[25] prob of solution |7> = 3.63798e-12
+[26] prob of solution |7> = 1.42109e-12
+[27] prob of solution |7> = 5.11591e-13
+[28] prob of solution |7> = 1.74083e-13
+[29] prob of solution |7> = 6.41709e-14
+[30] prob of solution |7> = 2.44804e-14
+[31] prob of solution |7> = 9.38138e-15
+[32] prob of solution |7> = 3.33414e-15
+[33] prob of solution |7> = 1.1241e-15
+[34] prob of solution |7> = 3.82507e-16
+[35] prob of solution |7> = 1.46584e-16
+Dumping statevector to file: grover-search_dump.data

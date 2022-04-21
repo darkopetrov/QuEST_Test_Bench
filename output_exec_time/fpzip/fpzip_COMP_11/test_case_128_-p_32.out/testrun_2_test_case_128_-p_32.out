@@ -1,0 +1,51 @@
+Argv[1]: fpzip
+Maximum values per block: 128
+numQubits: 11, numElems: 2048, numReps: 36
+Original size: 32768 bytes 
+n_blocks: 16, values_per_block: 128
+Creating 16 blocks for memory, Max block size 1024, total Max size: 16384
+Creating 16 blocks for memory, Max block size 1024, total Max size: 16384
+Allocating Raw Data block with data size: 1024
+Using double raw data blocks!
+Allocating Raw Data block with data size: 1024
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00438874
+[1] prob of solution |7> = 0.0121591
+[2] prob of solution |7> = 0.0237383
+[3] prob of solution |7> = 0.0390361
+[4] prob of solution |7> = 0.0579326
+[5] prob of solution |7> = 0.0802801
+[6] prob of solution |7> = 0.105904
+[7] prob of solution |7> = 0.134605
+[8] prob of solution |7> = 0.166157
+[9] prob of solution |7> = 0.200314
+[10] prob of solution |7> = 0.236811
+[11] prob of solution |7> = 0.27536
+[12] prob of solution |7> = 0.315662
+[13] prob of solution |7> = 0.357402
+[14] prob of solution |7> = 0.400253
+[15] prob of solution |7> = 0.443881
+[16] prob of solution |7> = 0.487945
+[17] prob of solution |7> = 0.5321
+[18] prob of solution |7> = 0.576001
+[19] prob of solution |7> = 0.619308
+[20] prob of solution |7> = 0.66168
+[21] prob of solution |7> = 0.702787
+[22] prob of solution |7> = 0.742308
+[23] prob of solution |7> = 0.779936
+[24] prob of solution |7> = 0.815375
+[25] prob of solution |7> = 0.848351
+[26] prob of solution |7> = 0.878602
+[27] prob of solution |7> = 0.905896
+[28] prob of solution |7> = 0.930018
+[29] prob of solution |7> = 0.950781
+[30] prob of solution |7> = 0.96802
+[31] prob of solution |7> = 0.981602
+[32] prob of solution |7> = 0.991422
+[33] prob of solution |7> = 0.997402
+[34] prob of solution |7> = 0.999498
+[35] prob of solution |7> = 0.997692
+Dumping statevector to file: grover-search_dump.data

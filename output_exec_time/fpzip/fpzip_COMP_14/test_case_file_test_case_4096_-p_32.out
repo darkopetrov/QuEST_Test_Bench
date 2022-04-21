@@ -1,0 +1,2 @@
+testrun: 0, file: testrun_0_test_case_4096_-p_32.out: exec_time: 23744315900 ns
+testrun: 1, file: testrun_1_test_case_4096_-p_32.out: exec_time: 30152251400 ns

@@ -1,0 +1,116 @@
+Argv[1]: fpzip
+Maximum values per block: 4096
+numQubits: 14, numElems: 16384, numReps: 101
+Original size: 262144 bytes 
+n_blocks: 4, values_per_block: 4096
+Creating 4 blocks for memory, Max block size 32768, total Max size: 131072
+Creating 4 blocks for memory, Max block size 32768, total Max size: 131072
+Allocating Raw Data block with data size: 32768
+Using double raw data blocks!
+Allocating Raw Data block with data size: 32768
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.000137329
+[1] prob of solution |7> = 8.60691e-05
+[2] prob of solution |7> = 4.673e-05
+[3] prob of solution |7> = 2.15173e-05
+[4] prob of solution |7> = 8.58307e-06
+[5] prob of solution |7> = 2.92063e-06
+[6] prob of solution |7> = 9.53674e-07
+[7] prob of solution |7> = 3.36207e-07
+[8] prob of solution |7> = 1.02678e-07
+[9] prob of solution |7> = 3.35276e-08
+[10] prob of solution |7> = 1.14087e-08
+[11] prob of solution |7> = 3.72529e-09
+[12] prob of solution |7> = 1.17871e-09
+[13] prob of solution |7> = 4.01087e-10
+[14] prob of solution |7> = 1.20281e-10
+[15] prob of solution |7> = 3.84262e-11
+[16] prob of solution |7> = 1.11413e-11
+[17] prob of solution |7> = 3.63798e-12
+[18] prob of solution |7> = 1.15108e-12
+[19] prob of solution |7> = 3.55271e-13
+[20] prob of solution |7> = 1.0747e-13
+[21] prob of solution |7> = 3.19744e-14
+[22] prob of solution |7> = 9.38138e-15
+[23] prob of solution |7> = 2.52923e-15
+[24] prob of solution |7> = 8.33535e-16
+[25] prob of solution |7> = 2.50668e-16
+[26] prob of solution |7> = 7.02563e-17
+[27] prob of solution |7> = 2.1684e-17
+[28] prob of solution |7> = 6.55942e-18
+[29] prob of solution |7> = 1.95156e-18
+[30] prob of solution |7> = 5.72594e-19
+[31] prob of solution |7> = 1.66018e-19
+[32] prob of solution |7> = 4.76456e-20
+[33] prob of solution |7> = 1.35525e-20
+[34] prob of solution |7> = 4.2881e-21
+[35] prob of solution |7> = 1.19445e-21
+[36] prob of solution |7> = 3.30872e-22
+[37] prob of solution |7> = 9.11967e-23
+[38] prob of solution |7> = 2.50222e-23
+[39] prob of solution |7> = 7.44463e-24
+[40] prob of solution |7> = 2.18427e-24
+[41] prob of solution |7> = 6.3331e-25
+[42] prob of solution |7> = 1.81754e-25
+[43] prob of solution |7> = 5.16988e-26
+[44] prob of solution |7> = 1.45908e-26
+[45] prob of solution |7> = 4.08945e-27
+[46] prob of solution |7> = 1.13912e-27
+[47] prob of solution |7> = 3.15544e-28
+[48] prob of solution |7> = 8.69719e-29
+[49] prob of solution |7> = 2.3863e-29
+[50] prob of solution |7> = 7.09975e-30
+[51] prob of solution |7> = 2.08309e-30
+[52] prob of solution |7> = 5.61601e-31
+[53] prob of solution |7> = 1.50993e-31
+[54] prob of solution |7> = 4.04927e-32
+[55] prob of solution |7> = 1.15676e-32
+[56] prob of solution |7> = 3.08149e-33
+[57] prob of solution |7> = 8.69678e-34
+[58] prob of solution |7> = 2.43751e-34
+[59] prob of solution |7> = 7.52316e-35
+[60] prob of solution |7> = 2.07357e-35
+[61] prob of solution |7> = 5.68939e-36
+[62] prob of solution |7> = 1.69271e-36
+[63] prob of solution |7> = 4.96646e-37
+[64] prob of solution |7> = 1.33896e-37
+[65] prob of solution |7> = 3.59995e-38
+[66] prob of solution |7> = 1.03315e-38
+[67] prob of solution |7> = 2.93874e-39
+[68] prob of solution |7> = 8.29389e-40
+[69] prob of solution |7> = 2.32459e-40
+[70] prob of solution |7> = 6.47512e-41
+[71] prob of solution |7> = 1.79366e-41
+[72] prob of solution |7> = 4.94378e-42
+[73] prob of solution |7> = 1.48257e-42
+[74] prob of solution |7> = 4.03574e-43
+[75] prob of solution |7> = 1.1841e-43
+[76] prob of solution |7> = 3.19233e-44
+[77] prob of solution |7> = 8.58295e-45
+[78] prob of solution |7> = 2.46322e-45
+[79] prob of solution |7> = 7.00649e-46
+[80] prob of solution |7> = 1.97742e-46
+[81] prob of solution |7> = 5.54224e-47
+[82] prob of solution |7> = 1.54379e-47
+[83] prob of solution |7> = 4.27642e-48
+[84] prob of solution |7> = 1.17869e-48
+[85] prob of solution |7> = 2.94672e-49
+[86] prob of solution |7> = 8.08511e-50
+[87] prob of solution |7> = 2.20921e-50
+[88] prob of solution |7> = 6.01372e-51
+[89] prob of solution |7> = 1.76444e-51
+[90] prob of solution |7> = 4.75695e-52
+[91] prob of solution |7> = 1.27896e-52
+[92] prob of solution |7> = 3.1974e-53
+[93] prob of solution |7> = 9.17621e-54
+[94] prob of solution |7> = 2.44954e-54
+[95] prob of solution |7> = 6.5253e-55
+[96] prob of solution |7> = 1.84161e-55
+[97] prob of solution |7> = 5.75106e-56
+[98] prob of solution |7> = 1.59309e-56
+[99] prob of solution |7> = 4.39096e-57
+[100] prob of solution |7> = 1.31679e-57
+Dumping statevector to file: grover-search_dump.data

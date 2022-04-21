@@ -1,0 +1,111 @@
+Argv[1]: fpzip
+Maximum values per block: 4096
+numQubits: 14, numElems: 16384, numReps: 101
+Original size: 262144 bytes 
+n_blocks: 4, values_per_block: 4096
+Creating 4 blocks for memory, Max block size 32768, total Max size: 131072
+Creating 4 blocks for memory, Max block size 32768, total Max size: 131072
+Allocating Raw Data block with data size: 32768
+Using double raw data blocks!
+Allocating Raw Data block with data size: 32768
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.000549217
+[1] prob of solution |7> = 0.00152508
+[2] prob of solution |7> = 0.00298764
+[3] prob of solution |7> = 0.00493545
+[4] prob of solution |7> = 0.00736658
+[5] prob of solution |7> = 0.0102786
+[6] prob of solution |7> = 0.0136687
+[7] prob of solution |7> = 0.0175336
+[8] prob of solution |7> = 0.0218693
+[9] prob of solution |7> = 0.0266717
+[10] prob of solution |7> = 0.031936
+[11] prob of solution |7> = 0.037657
+[12] prob of solution |7> = 0.0438292
+[13] prob of solution |7> = 0.0504465
+[14] prob of solution |7> = 0.0575026
+[15] prob of solution |7> = 0.0649904
+[16] prob of solution |7> = 0.0729023
+[17] prob of solution |7> = 0.0812309
+[18] prob of solution |7> = 0.0899679
+[19] prob of solution |7> = 0.0991049
+[20] prob of solution |7> = 0.108633
+[21] prob of solution |7> = 0.118543
+[22] prob of solution |7> = 0.128825
+[23] prob of solution |7> = 0.139468
+[24] prob of solution |7> = 0.150462
+[25] prob of solution |7> = 0.161798
+[26] prob of solution |7> = 0.173463
+[27] prob of solution |7> = 0.185446
+[28] prob of solution |7> = 0.197736
+[29] prob of solution |7> = 0.210321
+[30] prob of solution |7> = 0.223188
+[31] prob of solution |7> = 0.236324
+[32] prob of solution |7> = 0.249718
+[33] prob of solution |7> = 0.263353
+[34] prob of solution |7> = 0.277219
+[35] prob of solution |7> = 0.291302
+[36] prob of solution |7> = 0.305588
+[37] prob of solution |7> = 0.320062
+[38] prob of solution |7> = 0.334712
+[39] prob of solution |7> = 0.349522
+[40] prob of solution |7> = 0.364479
+[41] prob of solution |7> = 0.379567
+[42] prob of solution |7> = 0.394772
+[43] prob of solution |7> = 0.410078
+[44] prob of solution |7> = 0.425472
+[45] prob of solution |7> = 0.440938
+[46] prob of solution |7> = 0.45646
+[47] prob of solution |7> = 0.472024
+[48] prob of solution |7> = 0.487615
+[49] prob of solution |7> = 0.503217
+[50] prob of solution |7> = 0.518812
+[51] prob of solution |7> = 0.534387
+[52] prob of solution |7> = 0.549929
+[53] prob of solution |7> = 0.56542
+[54] prob of solution |7> = 0.580846
+[55] prob of solution |7> = 0.596193
+[56] prob of solution |7> = 0.611444
+[57] prob of solution |7> = 0.626586
+[58] prob of solution |7> = 0.641603
+[59] prob of solution |7> = 0.656479
+[60] prob of solution |7> = 0.671204
+[61] prob of solution |7> = 0.685759
+[62] prob of solution |7> = 0.700132
+[63] prob of solution |7> = 0.71431
+[64] prob of solution |7> = 0.728276
+[65] prob of solution |7> = 0.742018
+[66] prob of solution |7> = 0.755524
+[67] prob of solution |7> = 0.76878
+[68] prob of solution |7> = 0.781773
+[69] prob of solution |7> = 0.794488
+[70] prob of solution |7> = 0.806915
+[71] prob of solution |7> = 0.819041
+[72] prob of solution |7> = 0.830854
+[73] prob of solution |7> = 0.842344
+[74] prob of solution |7> = 0.853497
+[75] prob of solution |7> = 0.864305
+[76] prob of solution |7> = 0.874756
+[77] prob of solution |7> = 0.88484
+[78] prob of solution |7> = 0.894548
+[79] prob of solution |7> = 0.903869
+[80] prob of solution |7> = 0.912796
+[81] prob of solution |7> = 0.921318
+[82] prob of solution |7> = 0.929428
+[83] prob of solution |7> = 0.937117
+[84] prob of solution |7> = 0.944379
+[85] prob of solution |7> = 0.951206
+[86] prob of solution |7> = 0.957592
+[87] prob of solution |7> = 0.963529
+[88] prob of solution |7> = 0.969013
+[89] prob of solution |7> = 0.974038
+[90] prob of solution |7> = 0.978598
+[91] prob of solution |7> = 0.982691
+[92] prob of solution |7> = 0.986311
+[93] prob of solution |7> = 0.989456
+[94] prob of solution |7> = 0.992123
+[95] prob of solution |7> = 0.994307
+[96] p
