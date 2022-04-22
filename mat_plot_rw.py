@@ -22,7 +22,7 @@ mem_sizes_bytes = {
     'GB': 1000000000,
 }
 
-def mem_usage_to_kbytes(mem_usage_str):
+def mem_usage_to_bytes(mem_usage_str):
     size = mem_usage_str[-2:]
     amount = float(mem_usage_str[:-2])
     return amount * mem_sizes_bytes.get(size, 1)
