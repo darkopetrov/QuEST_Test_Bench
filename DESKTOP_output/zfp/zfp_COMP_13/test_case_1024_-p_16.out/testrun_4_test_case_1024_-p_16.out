@@ -1,0 +1,89 @@
+Argv[1]: zfp
+nx: 1024
+block_size: 1024
+Maximum values per block: 1024
+numQubits: 13, numElems: 8192, numReps: 72
+Original size: 131072 bytes 
+n_blocks: 8, values_per_block: 1024
+Creating 8 blocks for memory, Max block size 2552, total Max size: 20416
+Creating 8 blocks for memory, Max block size 2552, total Max size: 20416
+Allocating Raw Data block with data size: 8192
+Using double raw data blocks!
+Allocating Raw Data block with data size: 8192
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00110017
+[1] prob of solution |7> = 0.00305005
+[2] prob of solution |7> = 0.00597456
+[3] prob of solution |7> = 0.00986132
+[4] prob of solution |7> = 0.0147118
+[5] prob of solution |7> = 0.0204975
+[6] prob of solution |7> = 0.0272404
+[7] prob of solution |7> = 0.0348693
+[8] prob of solution |7> = 0.0434563
+[9] prob of solution |7> = 0.052891
+[10] prob of solution |7> = 0.0632346
+[11] prob of solution |7> = 0.0743722
+[12] prob of solution |7> = 0.0864128
+[13] prob of solution |7> = 0.0991785
+[14] prob of solution |7> = 0.112859
+[15] prob of solution |7> = 0.127168
+[16] prob of solution |7> = 0.142278
+[17] prob of solution |7> = 0.157981
+[18] prob of solution |7> = 0.174545
+[19] prob of solution |7> = 0.191513
+[20] prob of solution |7> = 0.209317
+[21] prob of solution |7> = 0.227497
+[22] prob of solution |7> = 0.246313
+[23] prob of solution |7> = 0.265539
+[24] prob of solution |7> = 0.285478
+[25] prob of solution |7> = 0.305515
+[26] prob of solution |7> = 0.326284
+[27] prob of solution |7> = 0.34698
+[28] prob of solution |7> = 0.368165
+[29] prob of solution |7> = 0.389386
+[30] prob of solution |7> = 0.411339
+[31] prob of solution |7> = 0.43297
+[32] prob of solution |7> = 0.455176
+[33] prob of solution |7> = 0.476904
+[34] prob of solution |7> = 0.499311
+[35] prob of solution |7> = 0.521086
+[36] prob of solution |7> = 0.543371
+[37] prob of solution |7> = 0.564929
+[38] prob of solution |7> = 0.586836
+[39] prob of solution |7> = 0.608374
+[40] prob of solution |7> = 0.63001
+[41] prob of solution |7> = 0.650965
+[42] prob of solution |7> = 0.672012
+[43] prob of solution |7> = 0.692124
+[44] prob of solution |7> = 0.712816
+[45] prob of solution |7> = 0.732323
+[46] prob of solution |7> = 0.752067
+[47] prob of solution |7> = 0.770278
+[48] prob of solution |7> = 0.788897
+[49] prob of solution |7> = 0.806176
+[50] prob of solution |7> = 0.823365
+[51] prob of solution |7> = 0.839588
+[52] prob of solution |7> = 0.855631
+[53] prob of solution |7> = 0.870629
+[54] prob of solution |7> = 0.885441
+[55] prob of solution |7> = 0.898758
+[56] prob of solution |7> = 0.911912
+[57] prob of solution |7> = 0.923694
+[58] prob of solution |7> = 0.935316
+[59] prob of solution |7> = 0.945378
+[60] prob of solution |7> = 0.955046
+[61] prob of solution |7> = 0.962905
+[62] prob of solution |7> = 0.971098
+[63] prob of solution |7> = 0.977635
+[64] prob of solution |7> = 0.983679
+[65] prob of solution |7> = 0.988346
+[66] prob of solution |7> = 0.99275
+[67] prob of solution |7> = 0.995245
+[68] prob of solution |7> = 0.997743
+[69] prob of solution |7> = 0.998048
+[70] prob of solution |7> = 0.998597
+[71] prob of solution |7> = 0.997133
+Dumping statevector to file: grover-search_dump.data

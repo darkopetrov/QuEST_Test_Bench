@@ -1,0 +1,7 @@
+Time test X Quest orignal-Quest runing 10 Qubits exec is 14814903.2 nsec
+Time test X Quest orignal-Quest runing 11 Qubits exec is 17291665.0 nsec
+Time test X Quest orignal-Quest runing 12 Qubits exec is 28138441.2 nsec
+Time test X Quest orignal-Quest runing 13 Qubits exec is 73591988.0 nsec
+Time test X Quest orignal-Quest runing 14 Qubits exec is 126671832.4 nsec
+Time test X Quest orignal-Quest runing 15 Qubits exec is 441817454.0 nsec
+Time test X Quest orignal-Quest runing 16 Qubits exec is 808827896.2 nsec

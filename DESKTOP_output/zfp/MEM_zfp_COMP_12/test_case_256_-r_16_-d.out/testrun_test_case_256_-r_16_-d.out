@@ -1,0 +1,79 @@
+heaptrack output will be written to "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.41906.gz"
+starting application, this might take some time...
+Argv[1]: zfp
+nx: 256
+block_size: 256
+Maximum values per block: 256
+numQubits: 12, numElems: 4096, numReps: 51
+Original size: 65536 bytes 
+n_blocks: 16, values_per_block: 256
+Creating 16 blocks for memory, Max block size 536, total Max size: 8576
+Creating 16 blocks for memory, Max block size 536, total Max size: 8576
+Allocating Raw Data block with data size: 2048
+Using double raw data blocks!
+Allocating Raw Data block with data size: 2048
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00219619
+[1] prob of solution |7> = 0.00607018
+[2] prob of solution |7> = 0.0119012
+[3] prob of solution |7> = 0.019602
+[4] prob of solution |7> = 0.0291802
+[5] prob of solution |7> = 0.0404824
+[6] prob of solution |7> = 0.0536376
+[7] prob of solution |7> = 0.0685127
+[8] prob of solution |7> = 0.0849389
+[9] prob of solution |7> = 0.102815
+[10] prob of solution |7> = 0.122547
+[11] prob of solution |7> = 0.143316
+[12] prob of solution |7> = 0.16566
+[13] prob of solution |7> = 0.188984
+[14] prob of solution |7> = 0.213929
+[15] prob of solution |7> = 0.239463
+[16] prob of solution |7> = 0.266058
+[17] prob of solution |7> = 0.293028
+[18] prob of solution |7> = 0.320954
+[19] prob of solution |7> = 0.34878
+[20] prob of solution |7> = 0.377988
+[21] prob of solution |7> = 0.407356
+[22] prob of solution |7> = 0.437177
+[23] prob of solution |7> = 0.465466
+[24] prob of solution |7> = 0.496361
+[25] prob of solution |7> = 0.525413
+[26] prob of solution |7> = 0.555473
+[27] prob of solution |7> = 0.583381
+[28] prob of solution |7> = 0.611687
+[29] prob of solution |7> = 0.639688
+[30] prob of solution |7> = 0.667317
+[31] prob of solution |7> = 0.693292
+[32] prob of solution |7> = 0.720178
+[33] prob of solution |7> = 0.744728
+[34] prob of solution |7> = 0.769154
+[35] prob of solution |7> = 0.790606
+[36] prob of solution |7> = 0.812023
+[37] prob of solution |7> = 0.830719
+[38] prob of solution |7> = 0.850079
+[39] prob of solution |7> = 0.867158
+[40] prob of solution |7> = 0.882687
+[41] prob of solution |7> = 0.896156
+[42] prob of solution |7> = 0.910077
+[43] prob of solution |7> = 0.919183
+[44] prob of solution |7> = 0.93057
+[45] prob of solution |7> = 0.934932
+[46] prob of solution |7> = 0.94262
+[47] prob of solution |7> = 0.944873
+[48] prob of solution |7> = 0.95022
+[49] prob of solution |7> = 0.948555
+[50] prob of solution |7> = 0.948555
+Dumping statevector to file: grover-search_dump.data
+free(): invalid pointer
+Aborted (core dumped)
+heaptrack stats:
+	allocations:          	646829
+	leaked allocations:   	70
+	temporary allocations:	3
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.41906.gz"

@@ -1,0 +1,71 @@
+Argv[1]: zfp
+nx: 256
+block_size: 256
+Maximum values per block: 256
+numQubits: 12, numElems: 4096, numReps: 51
+Setting up config data...
+Creating 16 blocks for memory, Max block size 1168, total Max size: 18688
+Setting up config data...
+Creating 16 blocks for memory, Max block size 1168, total Max size: 18688
+Allocating Raw Data block with data size: 2048
+Using double raw data blocks!
+Allocating Raw Data block with data size: 2048
+Using double raw data blocks!
+Creation completed
+initZeroState
+Decompressing inside ZeroState!
+Decompressing done
+Setting zero State for index 0
+initPlusState
+[0] prob of solution |7> = 0.000244141
+[1] prob of solution |7> = 0.000244141
+[2] prob of solution |7> = 0.000244141
+[3] prob of solution |7> = 0.000244141
+[4] prob of solution |7> = 0.000244141
+[5] prob of solution |7> = 0.000244141
+[6] prob of solution |7> = 0.000244141
+[7] prob of solution |7> = 0.000244141
+[8] prob of solution |7> = 0.000244141
+[9] prob of solution |7> = 0.000244141
+[10] prob of solution |7> = 0.000244141
+[11] prob of solution |7> = 0.000244141
+[12] prob of solution |7> = 0.000244141
+[13] prob of solution |7> = 0.000244141
+[14] prob of solution |7> = 0.000244141
+[15] prob of solution |7> = 0.000244141
+[16] prob of solution |7> = 0.000244141
+[17] prob of solution |7> = 0.000244141
+[18] prob of solution |7> = 0.000244141
+[19] prob of solution |7> = 0.000244141
+[20] prob of solution |7> = 0.000244141
+[21] prob of solution |7> = 0.000244141
+[22] prob of solution |7> = 0.000244141
+[23] prob of solution |7> = 0.000244141
+[24] prob of solution |7> = 0.000244141
+[25] prob of solution |7> = 0.000244141
+[26] prob of solution |7> = 0.000244141
+[27] prob of solution |7> = 0.000244141
+[28] prob of solution |7> = 0.000244141
+[29] prob of solution |7> = 0.000244141
+[30] prob of solution |7> = 0.000244141
+[31] prob of solution |7> = 0.000244141
+[32] prob of solution |7> = 0.000244141
+[33] prob of solution |7> = 0.000244141
+[34] prob of solution |7> = 0.000244141
+[35] prob of solution |7> = 0.000244141
+[36] prob of solution |7> = 0.000244141
+[37] prob of solution |7> = 0.000244141
+[38] prob of solution |7> = 0.000244141
+[39] prob of solution |7> = 0.000244141
+[40] prob of solution |7> = 0.000244141
+[41] prob of solution |7> = 0.000244141
+[42] prob of solution |7> = 0.000244141
+[43] prob of solution |7> = 0.000244141
+[44] prob of solution |7> = 0.000244141
+[45] prob of solution |7> = 0.000244141
+[46] prob of solution |7> = 0.000244141
+[47] prob of solution |7> = 0.000244141
+[48] prob of solution |7> = 0.000244141
+[49] prob of solution |7> = 0.000244141
+[50] prob of solution |7> = 0.000244141
+Dumping statevector to file: grover-search_dump.data

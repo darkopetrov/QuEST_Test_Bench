@@ -1,0 +1,46 @@
+Argv[1]: zfp
+nx: 128
+block_size: 128
+Maximum values per block: 128
+numQubits: 10, numElems: 1024, numReps: 26
+Setting up config data...
+Creating 8 blocks for memory, Max block size 592, total Max size: 4736
+Setting up config data...
+Creating 8 blocks for memory, Max block size 592, total Max size: 4736
+Allocating Raw Data block with data size: 1024
+Using double raw data blocks!
+Allocating Raw Data block with data size: 1024
+Using double raw data blocks!
+Creation completed
+initZeroState
+Decompressing inside ZeroState!
+Decompressing done
+Setting zero State for index 0
+initPlusState
+[0] prob of solution |7> = 0.000976562
+[1] prob of solution |7> = 0.000976562
+[2] prob of solution |7> = 0.000976562
+[3] prob of solution |7> = 0.000976562
+[4] prob of solution |7> = 0.000976562
+[5] prob of solution |7> = 0.000976562
+[6] prob of solution |7> = 0.000976562
+[7] prob of solution |7> = 0.000976562
+[8] prob of solution |7> = 0.000976562
+[9] prob of solution |7> = 0.000976562
+[10] prob of solution |7> = 0.000976562
+[11] prob of solution |7> = 0.000976562
+[12] prob of solution |7> = 0.000976562
+[13] prob of solution |7> = 0.000976562
+[14] prob of solution |7> = 0.000976562
+[15] prob of solution |7> = 0.000976562
+[16] prob of solution |7> = 0.000976562
+[17] prob of solution |7> = 0.000976562
+[18] prob of solution |7> = 0.000976562
+[19] prob of solution |7> = 0.000976562
+[20] prob of solution |7> = 0.000976562
+[21] prob of solution |7> = 0.000976562
+[22] prob of solution |7> = 0.000976562
+[23] prob of solution |7> = 0.000976562
+[24] prob of solution |7> = 0.000976562
+[25] prob of solution |7> = 0.000976562
+Dumping statevector to file: grover-search_dump.data

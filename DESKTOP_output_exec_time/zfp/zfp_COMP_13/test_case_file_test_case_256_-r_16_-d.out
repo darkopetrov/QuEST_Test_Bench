@@ -1,0 +1,6 @@
+testrun: 0, file: testrun_0_test_case_256_-r_16_-d.out: exec_time: 4494327017 ns
+testrun: 1, file: testrun_1_test_case_256_-r_16_-d.out: exec_time: 4509306977 ns
+testrun: 2, file: testrun_2_test_case_256_-r_16_-d.out: exec_time: 4467004123 ns
+testrun: 3, file: testrun_3_test_case_256_-r_16_-d.out: exec_time: 4515845410 ns
+testrun: 4, file: testrun_4_test_case_256_-r_16_-d.out: exec_time: 4444598550 ns
+avg exec time: 4486216415.4 ns

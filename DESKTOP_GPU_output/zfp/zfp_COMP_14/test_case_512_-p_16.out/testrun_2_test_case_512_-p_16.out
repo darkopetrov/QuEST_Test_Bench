@@ -1,0 +1,121 @@
+Argv[1]: zfp
+nx: 512
+block_size: 512
+Maximum values per block: 512
+numQubits: 14, numElems: 16384, numReps: 101
+Setting up config data...
+Creating 32 blocks for memory, Max block size 1288, total Max size: 41216
+Setting up config data...
+Creating 32 blocks for memory, Max block size 1288, total Max size: 41216
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Creation completed
+initZeroState
+Decompressing inside ZeroState!
+Decompressing done
+Setting zero State for index 0
+initPlusState
+[0] prob of solution |7> = 6.10352e-05
+[1] prob of solution |7> = 6.10352e-05
+[2] prob of solution |7> = 6.10352e-05
+[3] prob of solution |7> = 6.10352e-05
+[4] prob of solution |7> = 6.10352e-05
+[5] prob of solution |7> = 6.10352e-05
+[6] prob of solution |7> = 6.10352e-05
+[7] prob of solution |7> = 6.10352e-05
+[8] prob of solution |7> = 6.10352e-05
+[9] prob of solution |7> = 6.10352e-05
+[10] prob of solution |7> = 6.10352e-05
+[11] prob of solution |7> = 6.10352e-05
+[12] prob of solution |7> = 6.10352e-05
+[13] prob of solution |7> = 6.10352e-05
+[14] prob of solution |7> = 6.10352e-05
+[15] prob of solution |7> = 6.10352e-05
+[16] prob of solution |7> = 6.10352e-05
+[17] prob of solution |7> = 6.10352e-05
+[18] prob of solution |7> = 6.10352e-05
+[19] prob of solution |7> = 6.10352e-05
+[20] prob of solution |7> = 6.10352e-05
+[21] prob of solution |7> = 6.10352e-05
+[22] prob of solution |7> = 6.10352e-05
+[23] prob of solution |7> = 6.10352e-05
+[24] prob of solution |7> = 6.10352e-05
+[25] prob of solution |7> = 6.10352e-05
+[26] prob of solution |7> = 6.10352e-05
+[27] prob of solution |7> = 6.10352e-05
+[28] prob of solution |7> = 6.10352e-05
+[29] prob of solution |7> = 6.10352e-05
+[30] prob of solution |7> = 6.10352e-05
+[31] prob of solution |7> = 6.10352e-05
+[32] prob of solution |7> = 6.10352e-05
+[33] prob of solution |7> = 6.10352e-05
+[34] prob of solution |7> = 6.10352e-05
+[35] prob of solution |7> = 6.10352e-05
+[36] prob of solution |7> = 6.10352e-05
+[37] prob of solution |7> = 6.10352e-05
+[38] prob of solution |7> = 6.10352e-05
+[39] prob of solution |7> = 6.10352e-05
+[40] prob of solution |7> = 6.10352e-05
+[41] prob of solution |7> = 6.10352e-05
+[42] prob of solution |7> = 6.10352e-05
+[43] prob of solution |7> = 6.10352e-05
+[44] prob of solution |7> = 6.10352e-05
+[45] prob of solution |7> = 6.10352e-05
+[46] prob of solution |7> = 6.10352e-05
+[47] prob of solution |7> = 6.10352e-05
+[48] prob of solution |7> = 6.10352e-05
+[49] prob of solution |7> = 6.10352e-05
+[50] prob of solution |7> = 6.10352e-05
+[51] prob of solution |7> = 6.10352e-05
+[52] prob of solution |7> = 6.10352e-05
+[53] prob of solution |7> = 6.10352e-05
+[54] prob of solution |7> = 6.10352e-05
+[55] prob of solution |7> = 6.10352e-05
+[56] prob of solution |7> = 6.10352e-05
+[57] prob of solution |7> = 6.10352e-05
+[58] prob of solution |7> = 6.10352e-05
+[59] prob of solution |7> = 6.10352e-05
+[60] prob of solution |7> = 6.10352e-05
+[61] prob of solution |7> = 6.10352e-05
+[62] prob of solution |7> = 6.10352e-05
+[63] prob of solution |7> = 6.10352e-05
+[64] prob of solution |7> = 6.10352e-05
+[65] prob of solution |7> = 6.10352e-05
+[66] prob of solution |7> = 6.10352e-05
+[67] prob of solution |7> = 6.10352e-05
+[68] prob of solution |7> = 6.10352e-05
+[69] prob of solution |7> = 6.10352e-05
+[70] prob of solution |7> = 6.10352e-05
+[71] prob of solution |7> = 6.10352e-05
+[72] prob of solution |7> = 6.10352e-05
+[73] prob of solution |7> = 6.10352e-05
+[74] prob of solution |7> = 6.10352e-05
+[75] prob of solution |7> = 6.10352e-05
+[76] prob of solution |7> = 6.10352e-05
+[77] prob of solution |7> = 6.10352e-05
+[78] prob of solution |7> = 6.10352e-05
+[79] prob of solution |7> = 6.10352e-05
+[80] prob of solution |7> = 6.10352e-05
+[81] prob of solution |7> = 6.10352e-05
+[82] prob of solution |7> = 6.10352e-05
+[83] prob of solution |7> = 6.10352e-05
+[84] prob of solution |7> = 6.10352e-05
+[85] prob of solution |7> = 6.10352e-05
+[86] prob of solution |7> = 6.10352e-05
+[87] prob of solution |7> = 6.10352e-05
+[88] prob of solution |7> = 6.10352e-05
+[89] prob of solution |7> = 6.10352e-05
+[90] prob of solution |7> = 6.10352e-05
+[91] prob of solution |7> = 6.10352e-05
+[92] prob of solution |7> = 6.10352e-05
+[93] prob of solution |7> = 6.10352e-05
+[94] prob of solution |7> = 6.10352e-05
+[95] prob of solution |7> = 6.10352e-05
+[96] prob of solution |7> = 6.10352e-05
+[97] prob of solution |7> = 6.10352e-05
+[98] prob of solution |7> = 6.10352e-05
+[99] prob of solution |7> = 6.10352e-05
+[100] prob of solution |7> = 6.10352e-05
+Dumping statevector to file: grover-search_dump.data
