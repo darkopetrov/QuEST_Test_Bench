@@ -6,7 +6,7 @@ import re
 import time
 
 
-original_QuEST = "/home/greg/quantum/QuEST-master/build/grover"
+original_QuEST = "/home/devel/QuEST-master/build/demo"
 comp_QuEST = "/home/greg/quantum/QuEST-compression/build/grover"
 gpu_QuEST = "/home/greg/quantum/QuEST-gpu/build/grover"
 
@@ -154,7 +154,7 @@ TEST_CASES = {
             ]
         },
         16: {
-            "b": [4096, 8192, 16384],
+            "b": [2048, 4096, 8192, 16384],
             "params": [
                 ["-r", "16"],
                 ["-r", "32"],
@@ -332,22 +332,22 @@ if __name__ == "__main__":
     #run_fpzip_test_cases(True)
     print("Short break until running next set of tests")
     #time.sleep(30)
-    #run_original_test_cases(True)
+    run_original_test_cases(True)
 
     print("Short break until running next set of tests")
     #time.sleep(180)
 
-    print("Running EXEC TESTS!!")
-    #run_zfp_test_cases(False)
-    print("Short break until running next set of tests")
-    #time.sleep(30)
-    run_fpzip_test_cases(False)
-    print("Short break until running next set of tests")
-    time.sleep(30)
-    run_original_test_cases(False)
+    # print("Running EXEC TESTS!!")
+    # #run_zfp_test_cases(False)
+    # print("Short break until running next set of tests")
+    # #time.sleep(30)
+    # run_fpzip_test_cases(False)
+    # print("Short break until running next set of tests")
+    # time.sleep(30)
+    # run_original_test_cases(False)
 
-    print("Short break until running next set of tests")
-    time.sleep(180)
+    # print("Short break until running next set of tests")
+    # time.sleep(180)
 
     # comp_QuEST = gpu_QuEST
     # print("Running GPU EXEC TESTS!!")

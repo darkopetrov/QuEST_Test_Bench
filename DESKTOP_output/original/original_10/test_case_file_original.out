@@ -1,6 +1,0 @@
-testrun: 0, file: testrun_0_original.out: exec_time: 22212459 ns
-testrun: 1, file: testrun_1_original.out: exec_time: 22714749 ns
-testrun: 2, file: testrun_2_original.out: exec_time: 8936963 ns
-testrun: 3, file: testrun_3_original.out: exec_time: 11474118 ns
-testrun: 4, file: testrun_4_original.out: exec_time: 8736227 ns
-avg exec time: 14814903.2 ns

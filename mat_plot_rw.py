@@ -6,9 +6,15 @@ import math
 import re
 import ast
 
-original_tr_file = "output_exec_time/test_results_original.txt"
-zfp_tr_file = "output_exec_time/test_results_zfp.txt"
-fpzip_tr_file = "output_exec_time/test_results_fpzip.txt"
+original_tr_MEM_file = "DESKTOP_output/test_mem_results_original.txt"
+zfp_tr_MEM_file = "DESKTOP_output/test_mem_results_zfp.txt"
+fpzip_tr_MEM_file = "DESKTOP_output/test_mem_results_fpzip.txt"
+
+original_tr_file = "DESKTOP_output/test_results_original.txt"
+zfp_tr_file = "DESKTOP_output/test_results_zfp.txt"
+fpzip_tr_file = "DESKTOP_output/test_results_fpzip.txt"
+
+zfp_tr_GPU_file = "DESKTOP_GPU_output/test_results_zfp_fix.txt"
 
 qubits_regex = r"[\d]+(?=( Qubits))"
 block_size_regex = r"[\d]+(?=( Block Size))"
@@ -25,13 +31,13 @@ mem_sizes_bytes = {
 def mem_usage_to_bytes(mem_usage_str):
     size = mem_usage_str[-2:]
     amount = float(mem_usage_str[:-2])
-    return amount * mem_sizes_bytes.get(size, 1)
+    return (amount * mem_sizes_bytes.get(size, 1))
 
 def extract_row_data(line):
     qubits = 0
     block_size = 0
     exec_time_ms = 0
-    param  = "x"
+    param  = ""
     mem_usage = 0
 
     m = re.search(qubits_regex, line)
@@ -59,7 +65,7 @@ def extract_row_data(line):
         "mem_usage": mem_usage
     }
 
-def create_exec_graph(qubit, data, ignore=[]):
+def create_exec_graph(qubit, data, ignore=[], prefix=""):
     if data:
         plt.clf()
 
@@ -70,13 +76,14 @@ def create_exec_graph(qubit, data, ignore=[]):
                 y = [exec_time for _, exec_time in v.items()]
                 plt.plot(x, y, label=k, marker='o')
 
+        plt.grid()
         plt.xlabel("Block Size 2^x")
         plt.ylabel("Execution Time (ms)")
         plt.legend()
         plt.suptitle(f"Execution Time Qubit {qubit} for Grovers Search")
-        plt.savefig(f"exec_time_{qubit}_qubits.png")
+        plt.savefig(f"{prefix}exec_time_{qubit}_qubits.png")
 
-def create_mem_graph(qubit, data, ignore=[]):
+def create_mem_graph(qubit, data, ignore=[], prefix=""):
     if data:
         plt.clf()
 
@@ -84,16 +91,17 @@ def create_mem_graph(qubit, data, ignore=[]):
         for k, v in data.items():
             if k not in ignore:
                 x = [math.log2(bs) for bs, _ in v.items()]
-                y = [exec_time for _, exec_time in v.items()]
+                y = [mem_usage for _, mem_usage in v.items()]
                 plt.plot(x, y, label=k, marker='o')
 
+        plt.grid()
         plt.xlabel("Block Size 2^x")
-        plt.ylabel("Memory Usage (KB)")
+        plt.ylabel("Memory Usage (B)")
         plt.legend()
         plt.suptitle(f"Memory Usage Qubit {qubit} for Grovers Search")
-        plt.savefig(f"mem_usage_{qubit}_qubits.png")
+        plt.savefig(f"{prefix}mem_usage_{qubit}_qubits.png")
 
-def create_exec_best_graph(data):
+def create_exec_best_graph(data, prefix="", only_include=None):
     if data:
         plt.clf()
 
@@ -102,26 +110,27 @@ def create_exec_best_graph(data):
         y_values = {}
         for _, v in data.items():
             for label, val in v.items():
-                min_exec_time = 9223372036854775807
-                for _, exec_time in val.items():
-                    if min_exec_time > exec_time:
-                        min_exec_time = exec_time
-                exec_times = y_values.get(label, [])
-                exec_times.append(min_exec_time)
-                y_values[label] = exec_times
+                if only_include is None or label in only_include:
+                    min_exec_time = 9223372036854775807
+                    for _, exec_time in val.items():
+                        if min_exec_time > exec_time:
+                            min_exec_time = exec_time
+                    exec_times = y_values.get(label, [])
+                    exec_times.append(min_exec_time)
+                    y_values[label] = exec_times
         
         for label, y in y_values.items():
-            print(y)
             plt.plot(x, y, label=label, marker='o')
 
+        plt.grid()
         plt.xlabel("Qubits")
         plt.ylabel("Execution Time (ms)")
 
         plt.legend()
         plt.suptitle(f"Best Execution Time for Grovers Search")
-        plt.savefig(f"exec_time_total_qubits.png")
+        plt.savefig(f"{prefix}exec_time_total_qubits.png")
 
-def create_mem_best_graph(data):
+def create_mem_best_graph(data, prefix="", only_include=None):
     if data:
         plt.clf()
 
@@ -130,111 +139,113 @@ def create_mem_best_graph(data):
         y_values = {}
         for _, v in data.items():
             for label, val in v.items():
-                min_mem_usage = 9223372036854775807.0
-                for _, mem_usage in val.items():
-                    if min_mem_usage > mem_usage:
-                        min_mem_usage = mem_usage
-                mem_usages = y_values.get(label, [])
-                mem_usages.append(min_mem_usage)
-                y_values[label] = mem_usages
+                if only_include is None or label in only_include:
+                    min_mem_usage = 9223372036854775807.0
+                    for _, mem_usage in val.items():
+                        if min_mem_usage > mem_usage:
+                            min_mem_usage = mem_usage
+                    mem_usages = y_values.get(label, [])
+                    mem_usages.append(min_mem_usage/1000)
+                    y_values[label] = mem_usages
         
         for label, y in y_values.items():
             print(y)
             plt.plot(x, y, label=label, marker='o')
 
+        plt.grid()
         plt.xlabel("Qubits")
-        plt.ylabel("Memory Usage (B)")
+        plt.ylabel("Memory Usage (KB)")
 
         plt.legend()
         plt.suptitle(f"Best Memory Usage for Grovers Search")
-        plt.savefig(f"mem_usage_total_qubits.png")
+        plt.savefig(f"{prefix}best_mem_usage_total_qubits.png")
+
+def create_mem_worst_graph(data, prefix="", only_include=None):
+    if data:
+        plt.clf()
+
+        print("Full MEM graph")
+        x = data.keys()
+        y_values = {}
+        for _, v in data.items():
+            for label, val in v.items():
+                if only_include is None or label in only_include:
+                    max_mem_usage = 0.0
+                    for _, mem_usage in val.items():
+                        if max_mem_usage < mem_usage:
+                            max_mem_usage = mem_usage
+                    mem_usages = y_values.get(label, [])
+                    mem_usages.append(max_mem_usage/1000)
+                    y_values[label] = mem_usages
+        
+        for label, y in y_values.items():
+            print(y)
+            plt.plot(x, y, label=label, marker='o')
+
+        plt.grid()
+        plt.xlabel("Qubits")
+        plt.ylabel("Memory Usage (KB)")
+
+        plt.legend()
+        plt.suptitle(f"Worst Memory Usage for Grovers Search")
+        plt.savefig(f"{prefix}worst_mem_usage_total_qubits.png")
+
+def load_datapoints(prefix, file_name, points, data_point_name):
+    with open(file_name, "r") as f:
+        for line in f.readlines():
+            data = extract_row_data(line)
+            qubit_point = points.get(data.get("qubits"), {})
+            zfp_point = qubit_point.get(f"{prefix}{data.get('param')}", {})
+            zfp_point[data.get("block_size")] = data.get(data_point_name)
+            qubit_point[f"{prefix}{data.get('param')}"] = zfp_point
+            points[data.get("qubits")] = qubit_point
 
 def generate_exec_qubit_graphs(specific_qubit=None):
     points = {}
-    with open(zfp_tr_file, "r") as f:
-        for line in f.readlines():
-            data = extract_row_data(line)
-            qubit_point = points.get(data.get("qubits"), {})
-            zfp_point = qubit_point.get(f"zfp {data.get('param')}", {})
-            zfp_point[data.get("block_size")] = data.get("exec_time")
-            qubit_point[f"zfp {data.get('param')}"] = zfp_point
-            points[data.get("qubits")] = qubit_point
-    
-    with open(fpzip_tr_file, "r") as f:
-        for line in f.readlines():
-            data = extract_row_data(line)
-            if data["qubits"] == 0:
-                print(line)
-                print(data)
-            qubit_point = points.get(data.get("qubits"), {})
-            fpzip_point = qubit_point.get(f"fpzip {data.get('param')}", {})
-            fpzip_point[data.get("block_size")] = data.get("exec_time")
-            qubit_point[f"fpzip {data.get('param')}"] = fpzip_point
-            points[data.get("qubits")] = qubit_point
-    
-    with open(original_tr_file, "r") as f:
-        for line in f.readlines():
-            data = extract_row_data(line)
-            qubit_point = points.get(data.get("qubits"), {})
-            fpzip_point = qubit_point.get("original", {})
-            fpzip_point[data.get("block_size")] = data.get("exec_time")
-            qubit_point["original"] = fpzip_point
-            points[data.get("qubits")] = qubit_point
-
-    print(points)
+    load_datapoints("zfp ", zfp_tr_file, points, "exec_time")
+    load_datapoints("fpzip ", fpzip_tr_file, points, "exec_time")
+    load_datapoints("original", original_tr_file, points, "exec_time")
 
     if specific_qubit:
         create_exec_graph(specific_qubit, points.get(specific_qubit))
     else:
         for k, v in points.items():
-            create_exec_graph(k, v, ignore=["original"])
+            create_exec_graph(k, v, ignore=["original"], prefix="CPU_")
     
-    create_exec_best_graph(points)
+    create_exec_best_graph(points, prefix="CPU_")
 
+def generate_exec_GPU_qubit_graphs(specific_qubit=None):
+    points = {}
+    load_datapoints("GPU zfp ", zfp_tr_GPU_file, points, "exec_time")
+    load_datapoints("zfp ", zfp_tr_file, points, "exec_time")
+    load_datapoints("original", original_tr_file, points, "exec_time")
+
+    if specific_qubit:
+        create_exec_graph(specific_qubit, points.get(specific_qubit), prefix="GPU_")
+    else:
+        for k, v in points.items():
+            create_exec_graph(k, v, ignore=["original"], prefix="GPU_")
+    
+    create_exec_best_graph(points, prefix="GPU_")
 
 def generate_mem_qubit_graphs(specific_qubit=None):
     points = {}
-    with open(zfp_tr_file, "r") as f:
-        for line in f.readlines():
-            data = extract_row_data(line)
-            qubit_point = points.get(data.get("qubits"), {})
-            zfp_point = qubit_point.get(f"zfp {data.get('param')}", {})
-            zfp_point[data.get("block_size")] = data.get("mem_usage")
-            qubit_point[f"zfp {data.get('param')}"] = zfp_point
-            points[data.get("qubits")] = qubit_point
-    
-    with open(fpzip_tr_file, "r") as f:
-        for line in f.readlines():
-            data = extract_row_data(line)
-            if data["qubits"] == 0:
-                print(line)
-                print(data)
-            qubit_point = points.get(data.get("qubits"), {})
-            fpzip_point = qubit_point.get(f"fpzip {data.get('param')}", {})
-            fpzip_point[data.get("block_size")] = data.get("mem_usage")
-            qubit_point[f"fpzip {data.get('param')}"] = fpzip_point
-            points[data.get("qubits")] = qubit_point
-    
-    with open(original_tr_file, "r") as f:
-        for line in f.readlines():
-            data = extract_row_data(line)
-            qubit_point = points.get(data.get("qubits"), {})
-            fpzip_point = qubit_point.get("original", {})
-            fpzip_point[data.get("block_size")] = data.get("mem_usage")
-            qubit_point["original"] = fpzip_point
-            points[data.get("qubits")] = qubit_point
 
-    print(points)
+    load_datapoints("zfp ", zfp_tr_MEM_file, points, "mem_usage")
+    load_datapoints("fpzip ", fpzip_tr_MEM_file, points, "mem_usage")
+    load_datapoints("original", original_tr_MEM_file, points, "mem_usage")
 
     if specific_qubit:
         create_mem_graph(specific_qubit, points.get(specific_qubit))
     else:
         for k, v in points.items():
-            create_mem_graph(k, v, ignore=["original"])
+            create_mem_graph(k, v, ignore=["original"], prefix="CPU_")
     
-    create_mem_best_graph(points)
+    create_mem_best_graph(points, prefix="CPU_")
+    create_mem_worst_graph(points, prefix="CPU_")
 
 
 if __name__ == "__main__":
     generate_exec_qubit_graphs()
+    generate_exec_GPU_qubit_graphs()
     generate_mem_qubit_graphs()

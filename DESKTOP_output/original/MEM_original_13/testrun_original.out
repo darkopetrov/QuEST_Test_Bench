@@ -1,0 +1,85 @@
+heaptrack output will be written to "/c/Users/devel/Documents/School/Kandidatarbetet/quantum/QuEST_Test_Bench/heaptrack.demo.4478.gz"
+starting application, this might take some time...
+numQubits: 13, numElems: 8192, numReps: 72
+prob of solution |7> = 0.00109828
+prob of solution |7> = 0.00304878
+prob of solution |7> = 0.00596977
+prob of solution |7> = 0.00985555
+prob of solution |7> = 0.0146985
+prob of solution |7> = 0.0204892
+prob of solution |7> = 0.0272164
+prob of solution |7> = 0.0348668
+prob of solution |7> = 0.0434256
+prob of solution |7> = 0.052876
+prob of solution |7> = 0.0631996
+prob of solution |7> = 0.0743763
+prob of solution |7> = 0.0863841
+prob of solution |7> = 0.0991997
+prob of solution |7> = 0.112798
+prob of solution |7> = 0.127152
+prob of solution |7> = 0.142235
+prob of solution |7> = 0.158016
+prob of solution |7> = 0.174465
+prob of solution |7> = 0.19155
+prob of solution |7> = 0.209237
+prob of solution |7> = 0.227492
+prob of solution |7> = 0.24628
+prob of solution |7> = 0.265562
+prob of solution |7> = 0.285303
+prob of solution |7> = 0.305463
+prob of solution |7> = 0.326002
+prob of solution |7> = 0.346882
+prob of solution |7> = 0.36806
+prob of solution |7> = 0.389497
+prob of solution |7> = 0.411149
+prob of solution |7> = 0.432974
+prob of solution |7> = 0.454931
+prob of solution |7> = 0.476975
+prob of solution |7> = 0.499064
+prob of solution |7> = 0.521156
+prob of solution |7> = 0.543206
+prob of solution |7> = 0.565171
+prob of solution |7> = 0.587009
+prob of solution |7> = 0.608678
+prob of solution |7> = 0.630134
+prob of solution |7> = 0.651336
+prob of solution |7> = 0.672242
+prob of solution |7> = 0.692812
+prob of solution |7> = 0.713006
+prob of solution |7> = 0.732783
+prob of solution |7> = 0.752106
+prob of solution |7> = 0.770937
+prob of solution |7> = 0.789238
+prob of solution |7> = 0.806975
+prob of solution |7> = 0.824112
+prob of solution |7> = 0.840616
+prob of solution |7> = 0.856455
+prob of solution |7> = 0.871598
+prob of solution |7> = 0.886015
+prob of solution |7> = 0.899679
+prob of solution |7> = 0.912562
+prob of solution |7> = 0.924639
+prob of solution |7> = 0.935887
+prob of solution |7> = 0.946283
+prob of solution |7> = 0.955808
+prob of solution |7> = 0.964443
+prob of solution |7> = 0.972171
+prob of solution |7> = 0.978977
+prob of solution |7> = 0.984848
+prob of solution |7> = 0.989771
+prob of solution |7> = 0.993738
+prob of solution |7> = 0.996741
+prob of solution |7> = 0.998774
+prob of solution |7> = 0.999833
+prob of solution |7> = 0.999916
+prob of solution |7> = 0.999022
+Short sleep call to allow memory analysis
+free(): invalid pointer
+Aborted
+heaptrack stats:
+	allocations:          	23
+	leaked allocations:   	22
+	temporary allocations:	1
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/c/Users/devel/Documents/School/Kandidatarbetet/quantum/QuEST_Test_Bench/heaptrack.demo.4478.gz"
