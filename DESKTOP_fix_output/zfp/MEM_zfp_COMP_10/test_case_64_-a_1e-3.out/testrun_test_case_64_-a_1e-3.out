@@ -1,0 +1,54 @@
+heaptrack output will be written to "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.55672.gz"
+starting application, this might take some time...
+Argv[1]: zfp
+nx: 64
+block_size: 64
+Maximum values per block: 64
+numQubits: 10, numElems: 1024, numReps: 26
+Original size: 16384 bytes 
+n_blocks: 16, values_per_block: 64
+Creating 16 blocks for memory, Max block size 568, total Max size: 9088
+Creating 16 blocks for memory, Max block size 568, total Max size: 9088
+Allocating Raw Data block with data size: 512
+Using double raw data blocks!
+Allocating Raw Data block with data size: 512
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00874335
+[1] prob of solution |7> = 0.0237887
+[2] prob of solution |7> = 0.0470274
+[3] prob of solution |7> = 0.0776322
+[4] prob of solution |7> = 0.1131
+[5] prob of solution |7> = 0.15527
+[6] prob of solution |7> = 0.203061
+[7] prob of solution |7> = 0.253983
+[8] prob of solution |7> = 0.310121
+[9] prob of solution |7> = 0.368294
+[10] prob of solution |7> = 0.429863
+[11] prob of solution |7> = 0.490701
+[12] prob of solution |7> = 0.550027
+[13] prob of solution |7> = 0.61121
+[14] prob of solution |7> = 0.668015
+[15] prob of solution |7> = 0.723496
+[16] prob of solution |7> = 0.772691
+[17] prob of solution |7> = 0.820736
+[18] prob of solution |7> = 0.859899
+[19] prob of solution |7> = 0.897428
+[20] prob of solution |7> = 0.925514
+[21] prob of solution |7> = 0.952602
+[22] prob of solution |7> = 0.968153
+[23] prob of solution |7> = 0.977907
+[24] prob of solution |7> = 0.975494
+[25] prob of solution |7> = 0.971279
+Dumping statevector to file: grover-search_dump.data
+free(): invalid pointer
+Aborted (core dumped)
+heaptrack stats:
+	allocations:          	270189
+	leaked allocations:   	82
+	temporary allocations:	3
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.55672.gz"

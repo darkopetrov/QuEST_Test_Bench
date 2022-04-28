@@ -1,0 +1,30 @@
+heaptrack output will be written to "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.1733039.gz"
+starting application, this might take some time...
+compression failed: memory buffer overflow
+Argv[1]: fpzip
+Maximum values per block: 512
+numQubits: 12, numElems: 4096, numReps: 51
+Original size: 65536 bytes 
+n_blocks: 8, values_per_block: 512
+Creating 8 blocks for memory, Max block size 4096, total Max size: 32768
+Creating 8 blocks for memory, Max block size 4096, total Max size: 32768
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00219584
+[1] prob of solution |7> = 0.0060916
+[2] prob of solution |7> = 0.0119162
+[3] prob of solution |7> = 0.019647
+free(): invalid pointer
+Aborted (core dumped)
+heaptrack stats:
+	allocations:          	70006
+	leaked allocations:   	68
+	temporary allocations:	1
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.1733039.gz"

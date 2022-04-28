@@ -1,0 +1,54 @@
+heaptrack output will be written to "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.55325.gz"
+starting application, this might take some time...
+Argv[1]: zfp
+nx: 32
+block_size: 32
+Maximum values per block: 32
+numQubits: 10, numElems: 1024, numReps: 26
+Original size: 16384 bytes 
+n_blocks: 32, values_per_block: 32
+Creating 32 blocks for memory, Max block size 168, total Max size: 5376
+Creating 32 blocks for memory, Max block size 168, total Max size: 5376
+Allocating Raw Data block with data size: 256
+Using double raw data blocks!
+Allocating Raw Data block with data size: 256
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00876619
+[1] prob of solution |7> = 0.0242238
+[2] prob of solution |7> = 0.0471083
+[3] prob of solution |7> = 0.0770622
+[4] prob of solution |7> = 0.113618
+[5] prob of solution |7> = 0.156205
+[6] prob of solution |7> = 0.204159
+[7] prob of solution |7> = 0.256731
+[8] prob of solution |7> = 0.3131
+[9] prob of solution |7> = 0.372386
+[10] prob of solution |7> = 0.433665
+[11] prob of solution |7> = 0.495979
+[12] prob of solution |7> = 0.558356
+[13] prob of solution |7> = 0.619822
+[14] prob of solution |7> = 0.679417
+[15] prob of solution |7> = 0.736212
+[16] prob of solution |7> = 0.78932
+[17] prob of solution |7> = 0.837911
+[18] prob of solution |7> = 0.881228
+[19] prob of solution |7> = 0.918594
+[20] prob of solution |7> = 0.949426
+[21] prob of solution |7> = 0.973242
+[22] prob of solution |7> = 0.989671
+[23] prob of solution |7> = 0.998457
+[24] prob of solution |7> = 0.999461
+[25] prob of solution |7> = 0.992669
+Dumping statevector to file: grover-search_dump.data
+free(): invalid pointer
+Aborted (core dumped)
+heaptrack stats:
+	allocations:          	546326
+	leaked allocations:   	118
+	temporary allocations:	3
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.55325.gz"

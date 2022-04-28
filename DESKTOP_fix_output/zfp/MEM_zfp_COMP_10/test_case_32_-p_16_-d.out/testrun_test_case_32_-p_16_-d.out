@@ -1,0 +1,54 @@
+heaptrack output will be written to "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.55239.gz"
+starting application, this might take some time...
+Argv[1]: zfp
+nx: 32
+block_size: 32
+Maximum values per block: 32
+numQubits: 10, numElems: 1024, numReps: 26
+Original size: 16384 bytes 
+n_blocks: 32, values_per_block: 32
+Creating 32 blocks for memory, Max block size 104, total Max size: 3328
+Creating 32 blocks for memory, Max block size 104, total Max size: 3328
+Allocating Raw Data block with data size: 256
+Using double raw data blocks!
+Allocating Raw Data block with data size: 256
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00877298
+[1] prob of solution |7> = 0.0242332
+[2] prob of solution |7> = 0.0471118
+[3] prob of solution |7> = 0.0770254
+[4] prob of solution |7> = 0.113604
+[5] prob of solution |7> = 0.156065
+[6] prob of solution |7> = 0.204093
+[7] prob of solution |7> = 0.256496
+[8] prob of solution |7> = 0.312914
+[9] prob of solution |7> = 0.371989
+[10] prob of solution |7> = 0.433392
+[11] prob of solution |7> = 0.495566
+[12] prob of solution |7> = 0.55816
+[13] prob of solution |7> = 0.619325
+[14] prob of solution |7> = 0.679186
+[15] prob of solution |7> = 0.735722
+[16] prob of solution |7> = 0.78887
+[17] prob of solution |7> = 0.837241
+[18] prob of solution |7> = 0.880853
+[19] prob of solution |7> = 0.91775
+[20] prob of solution |7> = 0.949269
+[21] prob of solution |7> = 0.973054
+[22] prob of solution |7> = 0.98953
+[23] prob of solution |7> = 0.998109
+[24] prob of solution |7> = 0.999146
+[25] prob of solution |7> = 0.991868
+Dumping statevector to file: grover-search_dump.data
+free(): invalid pointer
+Aborted (core dumped)
+heaptrack stats:
+	allocations:          	545588
+	leaked allocations:   	33
+	temporary allocations:	3
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.55239.gz"

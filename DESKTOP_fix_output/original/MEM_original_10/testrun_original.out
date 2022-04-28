@@ -1,0 +1,3 @@
+Error: Debuggee "/home/greg/quantum/uEST-master/build/grover" is not an executable.
+
+Usage: /usr/bin/heaptrack [--debug|-d] [--help|-h] DEBUGGEE [ARGS...]
