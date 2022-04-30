@@ -10,7 +10,8 @@ original_QuEST = "/home/greg/quantum/uEST-master/build/grover"
 comp_QuEST = "/home/greg/quantum/QuEST-compression/build/grover"
 gpu_QuEST = "/home/greg/quantum/QuEST-gpu/build/grover"
 
-OUTPUT_DIR = "DESKTOP_output"
+GPU_OUTPUT_DIR = "DESKTOP_fix_long_GPU_output"
+OUTPUT_DIR = "DESKTOP_fix_long_output"
 NUMBER_OF_TEST_RUNS = 5
 
 TEST_CASES = {
@@ -21,140 +22,160 @@ TEST_CASES = {
         13: {"b": 0},
         14: {"b": 0},
         15: {"b": 0},
-        16: {"b": 0}
+        16: {"b": 0},
+        17: {"b": 0},
+        18: {"b": 0}
     },
     "fpzip": {
-        10: {
-            "b": [128, 256],
-            "params": [
-                ["-p", "64"],
-            ]
-        },
-        11: {
-            "b": [128, 256, 512],
-            "params": [
-                ["-p", "64"],
-            ]
-        },
-        12: {
-            "b": [128, 256, 512, 1024],
-            "params": [
-                ["-p", "64"],
-            ]
-        },
-        13: {
-            "b": [256, 512,1024,2048],
-            "params": [
+        # 10: {
+        #     "b": [32, 64, 128, 256],
+        #     "params": [
+        #         ["-p", "64"],
+        #     ]
+        # },
+        # 11: {
+        #     "b": [64, 128, 256, 512],
+        #     "params": [
+        #         ["-p", "64"],
+        #     ]
+        # },
+        # 12: {
+        #     "b": [128, 256, 512, 1024],
+        #     "params": [
+        #         ["-p", "64"],
+        #     ]
+        # },
+        # 13: {
+        #     "b": [256, 512,1024,2048],
+        #     "params": [
 
-                ["-p", "64"],
-            ]
-        },
-        14: {
-            "b": [512,1024,2048,4096],
-            "params": [
-                ["-p", "64"],
-            ]
-        },
-        15: {
-            "b": [1024,2048,4096,8192],
-            "params": [
-                ["-p", "64"],
-            ]
-        },
+        #         ["-p", "64"],
+        #     ]
+        # },
+        # 14: {
+        #     "b": [512,1024,2048,4096],
+        #     "params": [
+        #         ["-p", "64"],
+        #     ]
+        # },
+        # 15: {
+        #     "b": [1024,2048,4096,8192],
+        #     "params": [
+        #         ["-p", "64"],
+        #     ]
+        # },
         16: {
-            "b": [2048,4096,8192,16384],
+            "b": [32,64,128,256,512,1024,2048, 4096, 8192, 16384],
             "params": [
                 ["-p", "64"],
             ]
-        },
+        }
+        # 17: {
+        #     "b": [4096, 8192, 16384, 32768],
+        #     "params": [
+        #         ["-p", "64"],
+        #     ]
+        # },
+        # 18: {
+        #     "b": [8192, 16384, 32768, 32768],
+        #     "params": [
+        #         ["-p", "64"],
+        #     ]
+        # },
     },
     "zfp": {
-        10: {
-            "b": [128, 256],
-            "params": [
-                ["-r", "16"],
-                ["-r", "32"],
-                ["-p", "16"],
-                ["-p", "32"],
-                ["-r", "16", "-d"],
-                ["-r", "32", "-d"],
-                ["-p", "16", "-d"],
-                ["-p", "32", "-d"],
-                #["-a", "1e-6"]
-            ]
-        },
-        11: {
-            "b": [128, 256, 512],
-            "params": [
-                ["-r", "16"],
-                ["-r", "32"],
-                ["-p", "16"],
-                ["-p", "32"],
-                ["-r", "16", "-d"],
-                ["-r", "32", "-d"],
-                ["-p", "16", "-d"],
-                ["-p", "32", "-d"],
-                #["-a", "1e-6"]
-            ]
-        },
-        12: {
-            "b": [128, 256, 512, 1024],
-            "params": [
-                ["-r", "16"],
-                ["-r", "32"],
-                ["-p", "16"],
-                ["-p", "32"],
-                ["-r", "16", "-d"],
-                ["-r", "32", "-d"],
-                ["-p", "16", "-d"],
-                ["-p", "32", "-d"],
-                #["-a", "1e-6"]
-            ]
-        },
-        13: {
-            "b": [256, 512, 1024, 2048],
-            "params": [
-                ["-r", "16"],
-                ["-r", "32"],
-                ["-p", "16"],
-                ["-p", "32"],
-                ["-r", "16", "-d"],
-                ["-r", "32", "-d"],
-                ["-p", "16", "-d"],
-                ["-p", "32", "-d"],
-                #["-a", "1e-6"]
-            ]
-        },
-        14: {
-            "b": [512, 1024, 2048, 4096],
-            "params": [
-                ["-r", "16"],
-                ["-r", "32"],
-                ["-p", "16"],
-                ["-p", "32"],
-                ["-r", "16", "-d"],
-                ["-r", "32", "-d"],
-                ["-p", "16", "-d"],
-                ["-p", "32", "-d"],
-                #["-a", "1e-6"]
-            ]
-        },
-        15: {
-            "b": [1024, 2048, 4096, 8192],
-            "params": [
-                ["-r", "16"],
-                ["-r", "32"],
-                ["-p", "16"],
-                ["-p", "32"],
-                ["-r", "16", "-d"],
-                ["-r", "32", "-d"],
-                ["-p", "16", "-d"],
-                ["-p", "32", "-d"],
-                #["-a", "1e-6"]
-            ]
-        },
+        # 10: {
+        #     "b": [32, 64, 128, 256],
+        #     "params": [
+        #         ["-r", "16"],
+        #         ["-r", "32"],
+        #         ["-p", "16"],
+        #         ["-p", "32"],
+        #         ["-r", "16", "-d"],
+        #         ["-r", "32", "-d"],
+        #         ["-p", "16", "-d"],
+        #         ["-p", "32", "-d"],
+        #         ["-a", "1e-3"],
+        #         ["-a", "1e-4"]
+        #     ]
+        # },
+        # 11: {
+        #     "b": [64, 128, 256, 512],
+        #     "params": [
+        #         ["-r", "16"],
+        #         ["-r", "32"],
+        #         ["-p", "16"],
+        #         ["-p", "32"],
+        #         ["-r", "16", "-d"],
+        #         ["-r", "32", "-d"],
+        #         ["-p", "16", "-d"],
+        #         ["-p", "32", "-d"],
+        #         ["-a", "1e-3"],
+        #         ["-a", "1e-4"]
+        #     ]
+        # },
+        # 12: {
+        #     "b": [128, 256, 512, 1024],
+        #     "params": [
+        #         ["-r", "16"],
+        #         ["-r", "32"],
+        #         ["-p", "16"],
+        #         ["-p", "32"],
+        #         ["-r", "16", "-d"],
+        #         ["-r", "32", "-d"],
+        #         ["-p", "16", "-d"],
+        #         ["-p", "32", "-d"],
+        #         ["-a", "1e-3"],
+        #         ["-a", "1e-4"]
+        #     ]
+        # },
+        # 13: {
+        #     "b": [256, 512, 1024, 2048],
+        #     "params": [
+        #         ["-r", "16"],
+        #         ["-r", "32"],
+        #         ["-p", "16"],
+        #         ["-p", "32"],
+        #         ["-r", "16", "-d"],
+        #         ["-r", "32", "-d"],
+        #         ["-p", "16", "-d"],
+        #         ["-p", "32", "-d"],
+        #         ["-a", "1e-3"],
+        #         ["-a", "1e-4"]
+        #     ]
+        # },
+        # 14: {
+        #     "b": [512, 1024, 2048, 4096],
+        #     "params": [
+        #         ["-r", "16"],
+        #         ["-r", "32"],
+        #         ["-p", "16"],
+        #         ["-p", "32"],
+        #         ["-r", "16", "-d"],
+        #         ["-r", "32", "-d"],
+        #         ["-p", "16", "-d"],
+        #         ["-p", "32", "-d"],
+        #         ["-a", "1e-3"],
+        #         ["-a", "1e-4"]
+        #     ]
+        # },
+        # 15: {
+        #     "b": [1024, 2048, 4096, 8192],
+        #     "params": [
+        #         ["-r", "16"],
+        #         ["-r", "32"],
+        #         ["-p", "16"],
+        #         ["-p", "32"],
+        #         ["-r", "16", "-d"],
+        #         ["-r", "32", "-d"],
+        #         ["-p", "16", "-d"],
+        #         ["-p", "32", "-d"],
+        #         ["-a", "1e-3"],
+        #         ["-a", "1e-4"]
+        #     ]
+        # },
         16: {
-            "b": [2048, 4096, 8192, 16384],
+            "b": [32,64,128,256,512,1024,2048, 4096, 8192, 16384],
             "params": [
                 ["-r", "16"],
                 ["-r", "32"],
@@ -164,9 +185,40 @@ TEST_CASES = {
                 ["-r", "32", "-d"],
                 ["-p", "16", "-d"],
                 ["-p", "32", "-d"],
-                #["-a", "1e-6"]
+                ["-a", "1e-3"],
+                ["-a", "1e-4"]
             ]
-        },
+        }
+        # 17: {
+        #     "b": [4096, 8192, 16384, 32768],
+        #     "params": [
+        #         ["-r", "16"],
+        #         ["-r", "32"],
+        #         ["-p", "16"],
+        #         ["-p", "32"],
+        #         ["-r", "16", "-d"],
+        #         ["-r", "32", "-d"],
+        #         ["-p", "16", "-d"],
+        #         ["-p", "32", "-d"],
+        #         ["-a", "1e-3"],
+        #         ["-a", "1e-4"]
+        #     ]
+        # },
+        # 18: {
+        #     "b": [8192, 16384, 32768, 65536],
+        #     "params": [
+        #         ["-r", "16"],
+        #         ["-r", "32"],
+        #         ["-p", "16"],
+        #         ["-p", "32"],
+        #         ["-r", "16", "-d"],
+        #         ["-r", "32", "-d"],
+        #         ["-p", "16", "-d"],
+        #         ["-p", "32", "-d"],
+        #         ["-a", "1e-3"],
+        #         ["-a", "1e-4"]
+        #     ]
+        # },
     },
 }
 
@@ -325,34 +377,31 @@ def run_original_test_cases(mem_test=False):
 
 if __name__ == "__main__":
 
-    # print("Running MEMORY TESTS!!")
+    print("Running MEMORY TESTS!!")
     run_zfp_test_cases(True)
     print("Short break until running next set of tests")
-    #time.sleep(30)
+    time.sleep(30)
     #run_fpzip_test_cases(True)
-    print("Short break until running next set of tests")
+    #print("Short break until running next set of tests")
     #time.sleep(30)
     #run_original_test_cases(True)
+
+    #print("Short break until running next set of tests")
+    #time.sleep(180)
+
+    print("Running EXEC TESTS!!")
+    run_zfp_test_cases(False)
+    print("Short break until running next set of tests")
+    time.sleep(30)
+    run_fpzip_test_cases(False)
+    #print("Short break until running next set of tests")
+    #time.sleep(30)
+    #run_original_test_cases(False)
 
     print("Short break until running next set of tests")
     time.sleep(180)
 
-    print("Running EXEC TESTS!!")
+    comp_QuEST = gpu_QuEST
+    OUTPUT_DIR = GPU_OUTPUT_DIR
+    print("Running GPU EXEC TESTS!!")
     run_zfp_test_cases(False)
-    # print("Short break until running next set of tests")
-    # #time.sleep(30)
-    # run_fpzip_test_cases(False)
-    # print("Short break until running next set of tests")
-    # time.sleep(30)
-    # run_original_test_cases(False)
-
-    # print("Short break until running next set of tests")
-    # time.sleep(180)
-
-    # comp_QuEST = gpu_QuEST
-    # print("Running GPU EXEC TESTS!!")
-    # run_zfp_test_cases(False)
-    # print("Short break until running next set of tests")
-    # time.sleep(30)
-    #run_fpzip_test_cases(False)
-    

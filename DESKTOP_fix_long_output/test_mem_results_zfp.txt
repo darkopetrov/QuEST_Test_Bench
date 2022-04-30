@@ -1,0 +1,100 @@
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-r', '16'] and peak mem usage: 578.43KB
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-r', '32'] and peak mem usage: 840.58KB
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-p', '16'] and peak mem usage: 643.97KB
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-p', '32'] and peak mem usage: 906.11KB
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 480.30KB
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 742.58KB
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 397.98KB
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 525.05KB
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.43MB
+Time test X Quest zfp-Quest runing 16 Qubits and 32 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.43MB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-r', '16'] and peak mem usage: 464.77KB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-r', '32'] and peak mem usage: 726.91KB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-p', '16'] and peak mem usage: 530.30KB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-p', '32'] and peak mem usage: 792.45KB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 415.92KB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 678.32KB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 317.57KB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 444.44KB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.32MB
+Time test X Quest zfp-Quest runing 16 Qubits and 64 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.32MB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-r', '16'] and peak mem usage: 409.47KB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-r', '32'] and peak mem usage: 671.62KB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-p', '16'] and peak mem usage: 466.82KB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-p', '32'] and peak mem usage: 728.96KB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 385.46KB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 648.11KB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 279.02KB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 410.18KB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.25MB
+Time test X Quest zfp-Quest runing 16 Qubits and 128 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.25MB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-r', '16'] and peak mem usage: 384.90KB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-r', '32'] and peak mem usage: 647.04KB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-p', '16'] and peak mem usage: 446.34KB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-p', '32'] and peak mem usage: 708.48KB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 373.68KB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 636.85KB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 264.90KB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 397.00KB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.23MB
+Time test X Quest zfp-Quest runing 16 Qubits and 256 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.23MB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-r', '16'] and peak mem usage: 378.75KB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-r', '32'] and peak mem usage: 640.90KB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-p', '16'] and peak mem usage: 440.19KB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-p', '32'] and peak mem usage: 702.34KB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 374.70KB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 638.90KB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 265.14KB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 398.26KB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.23MB
+Time test X Quest zfp-Quest runing 16 Qubits and 512 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.23MB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-r', '16'] and peak mem usage: 387.97KB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-r', '32'] and peak mem usage: 650.11KB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-p', '16'] and peak mem usage: 449.41KB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-p', '32'] and peak mem usage: 711.55KB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 389.04KB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 655.28KB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 279.96KB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 415.13KB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.24MB
+Time test X Quest zfp-Quest runing 16 Qubits and 1024 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.24MB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-r', '16'] and peak mem usage: 417.15KB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-r', '32'] and peak mem usage: 679.30KB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-p', '16'] and peak mem usage: 478.59KB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-p', '32'] and peak mem usage: 740.74KB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 423.86KB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 694.19KB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 315.74KB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 455.00KB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.27MB
+Time test X Quest zfp-Quest runing 16 Qubits and 2048 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.27MB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-r', '16'] and peak mem usage: 480.90KB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-r', '32'] and peak mem usage: 743.04KB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-p', '16'] and peak mem usage: 542.34KB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-p', '32'] and peak mem usage: 804.48KB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 496.56KB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 775.09KB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 390.36KB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 537.82KB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.33MB
+Time test X Quest zfp-Quest runing 16 Qubits and 4096 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.33MB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-r', '16'] and peak mem usage: 611.07KB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-r', '32'] and peak mem usage: 873.22KB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-p', '16'] and peak mem usage: 672.51KB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-p', '32'] and peak mem usage: 934.66KB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 643.50KB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 938.42KB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 541.14KB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 704.98KB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.46MB
+Time test X Quest zfp-Quest runing 16 Qubits and 8192 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.46MB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-r', '16'] and peak mem usage: 868.20KB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-r', '32'] and peak mem usage: 1.13MB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-p', '16'] and peak mem usage: 929.64KB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-p', '32'] and peak mem usage: 1.19MB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-r', '16', '-d'] and peak mem usage: 938.16KB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-r', '32', '-d'] and peak mem usage: 1.27MB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-p', '16', '-d'] and peak mem usage: 843.48KB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-p', '32', '-d'] and peak mem usage: 1.04MB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-a', '1e-3'] and peak mem usage: 1.72MB
+Time test X Quest zfp-Quest runing 16 Qubits and 16384 Block Size, Param: ['-a', '1e-4'] and peak mem usage: 1.72MB

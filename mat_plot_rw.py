@@ -1,17 +1,14 @@
-from cProfile import label
-from email.charset import QP
-from turtle import st
 import matplotlib.pyplot as plt
 import math
 import re
 import ast
 
 original_tr_MEM_file = "DESKTOP_output/test_mem_results_original.txt"
-zfp_tr_MEM_file = "DESKTOP_output/test_mem_results_zfp.txt"
+zfp_tr_MEM_file = "DESKTOP_fix_long_output/test_mem_results_zfp.txt"
 fpzip_tr_MEM_file = "DESKTOP_output/test_mem_results_fpzip.txt"
 
 original_tr_file = "DESKTOP_output/test_results_original.txt"
-zfp_tr_file = "DESKTOP_output/test_results_zfp.txt"
+zfp_tr_file = "DESKTOP_fix_long_output/test_results_zfp.txt"
 fpzip_tr_file = "DESKTOP_output/test_results_fpzip.txt"
 
 zfp_tr_GPU_file = "DESKTOP_GPU_output/test_results_zfp_fix.txt"
@@ -62,7 +59,7 @@ def extract_row_data(line):
         "block_size": block_size,
         "exec_time": exec_time_ms,
         "param": param,
-        "mem_usage": mem_usage
+        "mem_usage": mem_usage-71000
     }
 
 def create_exec_graph(qubit, data, ignore=[], prefix=""):
@@ -203,8 +200,8 @@ def load_datapoints(prefix, file_name, points, data_point_name):
 def generate_exec_qubit_graphs(specific_qubit=None):
     points = {}
     load_datapoints("zfp ", zfp_tr_file, points, "exec_time")
-    load_datapoints("fpzip ", fpzip_tr_file, points, "exec_time")
-    load_datapoints("original", original_tr_file, points, "exec_time")
+    #load_datapoints("fpzip ", fpzip_tr_file, points, "exec_time")
+    #load_datapoints("original", original_tr_file, points, "exec_time")
 
     if specific_qubit:
         create_exec_graph(specific_qubit, points.get(specific_qubit))
@@ -232,8 +229,8 @@ def generate_mem_qubit_graphs(specific_qubit=None):
     points = {}
 
     load_datapoints("zfp ", zfp_tr_MEM_file, points, "mem_usage")
-    load_datapoints("fpzip ", fpzip_tr_MEM_file, points, "mem_usage")
-    load_datapoints("original", original_tr_MEM_file, points, "mem_usage")
+    #load_datapoints("fpzip ", fpzip_tr_MEM_file, points, "mem_usage")
+    #load_datapoints("original", original_tr_MEM_file, points, "mem_usage")
 
     if specific_qubit:
         create_mem_graph(specific_qubit, points.get(specific_qubit))
@@ -247,5 +244,5 @@ def generate_mem_qubit_graphs(specific_qubit=None):
 
 if __name__ == "__main__":
     generate_exec_qubit_graphs()
-    generate_exec_GPU_qubit_graphs()
+    #generate_exec_GPU_qubit_graphs()
     generate_mem_qubit_graphs()

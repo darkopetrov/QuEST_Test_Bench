@@ -1,0 +1,19 @@
+compression failed: memory buffer overflow
+Argv[1]: fpzip
+Maximum values per block: 512
+numQubits: 16, numElems: 65536, numReps: 202
+Original size: 1048576 bytes 
+n_blocks: 128, values_per_block: 512
+Creating 128 blocks for memory, Max block size 4096, total Max size: 524288
+Creating 128 blocks for memory, Max block size 4096, total Max size: 524288
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.000137324
+[1] prob of solution |7> = 0.000381423
+[2] prob of solution |7> = 0.000747498
+[3] prob of solution |7> = 0.00123546
