@@ -1,6 +1,3 @@
-from cProfile import label
-from email.charset import QP
-from turtle import st
 import matplotlib.pyplot as plt
 import math
 import re
@@ -26,6 +23,23 @@ mem_sizes_bytes = {
     'KB': 1000,
     'MB': 1000000,
     'GB': 1000000000,
+}
+
+colors = {
+    "zfp -r 16":    "#e60049",
+    "zfp -p 16":    "#0bb4ff",
+    "zfp -r 32":    "#50e991",
+    "zfp -p 32":    "#e6d800",
+    "zfp -a 1e-3":   "#9b19f5",
+    "zfp -a 1e-4":   "#ffa300",
+    "zfp -r 16 -d": "#dc0ab4",
+    "zfp -r 32 -d": "#b3d4ff",
+    "zfp -p 16 -d": "#00bfa0",
+    "zfp -p 32 -d": "#4421af",
+    "zfp -a 1e-3 -d": "#1a53ff",
+    "zfp -a 1e-4 -d": "#7c1158",
+    "fpzip -p 64":  "#a4a2a8",
+    "original": "#000000"
 }
 
 def mem_usage_to_bytes(mem_usage_str):
@@ -74,7 +88,7 @@ def create_exec_graph(qubit, data, ignore=[], prefix=""):
             if k not in ignore:
                 x = [math.log2(bs) for bs, _ in v.items()]
                 y = [exec_time for _, exec_time in v.items()]
-                plt.plot(x, y, label=k, marker='o')
+                plt.plot(x, y, label=k, marker='o', color=colors[k])
 
         plt.grid()
         plt.xlabel("Block Size 2^x")
@@ -92,7 +106,7 @@ def create_mem_graph(qubit, data, ignore=[], prefix=""):
             if k not in ignore:
                 x = [math.log2(bs) for bs, _ in v.items()]
                 y = [mem_usage for _, mem_usage in v.items()]
-                plt.plot(x, y, label=k, marker='o')
+                plt.plot(x, y, label=k, marker='o', color=colors[k])
 
         plt.grid()
         plt.xlabel("Block Size 2^x")
@@ -120,7 +134,7 @@ def create_exec_best_graph(data, prefix="", only_include=None):
                     y_values[label] = exec_times
         
         for label, y in y_values.items():
-            plt.plot(x, y, label=label, marker='o')
+            plt.plot(x, y, label=label, marker='o', color=colors[label])
 
         plt.grid()
         plt.xlabel("Qubits")
@@ -150,7 +164,7 @@ def create_mem_best_graph(data, prefix="", only_include=None):
         
         for label, y in y_values.items():
             print(y)
-            plt.plot(x, y, label=label, marker='o')
+            plt.plot(x, y, label=label, marker='o', color=colors[label])
 
         plt.grid()
         plt.xlabel("Qubits")
@@ -180,7 +194,7 @@ def create_mem_worst_graph(data, prefix="", only_include=None):
         
         for label, y in y_values.items():
             print(y)
-            plt.plot(x, y, label=label, marker='o')
+            plt.plot(x, y, label=label, marker='o', color=colors[label])
 
         plt.grid()
         plt.xlabel("Qubits")
