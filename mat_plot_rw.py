@@ -39,7 +39,11 @@ colors = {
     "zfp -a 1e-3 -d": "#1a53ff",
     "zfp -a 1e-4 -d": "#7c1158",
     "fpzip -p 64":  "#a4a2a8",
-    "original": "#000000"
+    "original": "#000000",
+    "GPU zfp -r 16":    "#de95ac",
+    "GPU zfp -r 32":    "#a6e0bf",
+    "GPU zfp -r 16 -d": "#75496d",
+    "GPU zfp -r 32 -d": "#006fff"
 }
 
 def mem_usage_to_bytes(mem_usage_str):
