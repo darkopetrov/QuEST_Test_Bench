@@ -1,0 +1,9 @@
+Time test X Quest orignal-Quest runing 10 Qubits and peak mem usage: 102.18KB
+Time test X Quest orignal-Quest runing 11 Qubits and peak mem usage: 118.57KB
+Time test X Quest orignal-Quest runing 12 Qubits and peak mem usage: 151.34KB
+Time test X Quest orignal-Quest runing 13 Qubits and peak mem usage: 216.87KB
+Time test X Quest orignal-Quest runing 14 Qubits and peak mem usage: 347.94KB
+Time test X Quest orignal-Quest runing 15 Qubits and peak mem usage: 610.09KB
+Time test X Quest orignal-Quest runing 16 Qubits and peak mem usage: 1.13MB
+Time test X Quest orignal-Quest runing 17 Qubits and peak mem usage: 2.18MB
+Time test X Quest orignal-Quest runing 18 Qubits and peak mem usage: 4.28MB
