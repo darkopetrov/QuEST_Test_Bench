@@ -1,0 +1,114 @@
+heaptrack output will be written to "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.993676.gz"
+starting application, this might take some time...
+numQubits: 14, numElems: 16384, numReps: 101
+prob of solution |7> = 0.000549227
+prob of solution |7> = 0.00152513
+prob of solution |7> = 0.0029878
+prob of solution |7> = 0.00493581
+prob of solution |7> = 0.00736724
+prob of solution |7> = 0.0102797
+prob of solution |7> = 0.0136704
+prob of solution |7> = 0.017536
+prob of solution |7> = 0.0218728
+prob of solution |7> = 0.0266764
+prob of solution |7> = 0.0319422
+prob of solution |7> = 0.0376651
+prob of solution |7> = 0.0438395
+prob of solution |7> = 0.0504593
+prob of solution |7> = 0.0575181
+prob of solution |7> = 0.0650089
+prob of solution |7> = 0.0729246
+prob of solution |7> = 0.0812572
+prob of solution |7> = 0.0899988
+prob of solution |7> = 0.0991408
+prob of solution |7> = 0.108674
+prob of solution |7> = 0.11859
+prob of solution |7> = 0.128878
+prob of solution |7> = 0.139528
+prob of solution |7> = 0.15053
+prob of solution |7> = 0.161874
+prob of solution |7> = 0.173548
+prob of solution |7> = 0.18554
+prob of solution |7> = 0.19784
+prob of solution |7> = 0.210435
+prob of solution |7> = 0.223312
+prob of solution |7> = 0.23646
+prob of solution |7> = 0.249865
+prob of solution |7> = 0.263514
+prob of solution |7> = 0.277394
+prob of solution |7> = 0.291492
+prob of solution |7> = 0.305793
+prob of solution |7> = 0.320284
+prob of solution |7> = 0.33495
+prob of solution |7> = 0.349778
+prob of solution |7> = 0.364752
+prob of solution |7> = 0.379858
+prob of solution |7> = 0.395082
+prob of solution |7> = 0.410408
+prob of solution |7> = 0.425821
+prob of solution |7> = 0.441307
+prob of solution |7> = 0.456851
+prob of solution |7> = 0.472436
+prob of solution |7> = 0.488048
+prob of solution |7> = 0.503672
+prob of solution |7> = 0.519293
+prob of solution |7> = 0.534894
+prob of solution |7> = 0.550462
+prob of solution |7> = 0.56598
+prob of solution |7> = 0.581434
+prob of solution |7> = 0.596808
+prob of solution |7> = 0.612088
+prob of solution |7> = 0.627258
+prob of solution |7> = 0.642304
+prob of solution |7> = 0.657211
+prob of solution |7> = 0.671965
+prob of solution |7> = 0.68655
+prob of solution |7> = 0.700954
+prob of solution |7> = 0.715161
+prob of solution |7> = 0.729158
+prob of solution |7> = 0.742931
+prob of solution |7> = 0.756467
+prob of solution |7> = 0.769753
+prob of solution |7> = 0.782775
+prob of solution |7> = 0.795521
+prob of solution |7> = 0.807979
+prob of solution |7> = 0.820136
+prob of solution |7> = 0.83198
+prob of solution |7> = 0.8435
+prob of solution |7> = 0.854685
+prob of solution |7> = 0.865523
+prob of solution |7> = 0.876004
+prob of solution |7> = 0.886118
+prob of solution |7> = 0.895855
+prob of solution |7> = 0.905206
+prob of solution |7> = 0.914161
+prob of solution |7> = 0.922711
+prob of solution |7> = 0.930849
+prob of solution |7> = 0.938566
+prob of solution |7> = 0.945854
+prob of solution |7> = 0.952707
+prob of solution |7> = 0.959119
+prob of solution |7> = 0.965082
+prob of solution |7> = 0.97059
+prob of solution |7> = 0.975639
+prob of solution |7> = 0.980224
+prob of solution |7> = 0.98434
+prob of solution |7> = 0.987983
+prob of solution |7> = 0.991149
+prob of solution |7> = 0.993836
+prob of solution |7> = 0.99604
+prob of solution |7> = 0.99776
+prob of solution |7> = 0.998994
+prob of solution |7> = 0.999741
+prob of solution |7> = 1
+prob of solution |7> = 0.99977
+Short sleep call to allow memory analysis
+free(): invalid pointer
+Aborted (core dumped)
+heaptrack stats:
+	allocations:          	23
+	leaked allocations:   	22
+	temporary allocations:	1
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.993676.gz"

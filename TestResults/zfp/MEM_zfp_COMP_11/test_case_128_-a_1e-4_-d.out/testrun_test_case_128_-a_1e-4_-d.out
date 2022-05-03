@@ -1,0 +1,64 @@
+heaptrack output will be written to "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.223813.gz"
+starting application, this might take some time...
+Argv[1]: zfp
+nx: 128
+block_size: 128
+Maximum values per block: 128
+numQubits: 11, numElems: 2048, numReps: 36
+Original size: 32768 bytes 
+n_blocks: 16, values_per_block: 128
+Creating 16 blocks for memory, Max block size 1104, total Max size: 17664
+Creating 16 blocks for memory, Max block size 1104, total Max size: 17664
+Allocating Raw Data block with data size: 1024
+Using double raw data blocks!
+Allocating Raw Data block with data size: 1024
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00437642
+[1] prob of solution |7> = 0.0121749
+[2] prob of solution |7> = 0.0237958
+[3] prob of solution |7> = 0.0390719
+[4] prob of solution |7> = 0.0579566
+[5] prob of solution |7> = 0.0803445
+[6] prob of solution |7> = 0.105923
+[7] prob of solution |7> = 0.134709
+[8] prob of solution |7> = 0.166247
+[9] prob of solution |7> = 0.200405
+[10] prob of solution |7> = 0.236831
+[11] prob of solution |7> = 0.275314
+[12] prob of solution |7> = 0.315544
+[13] prob of solution |7> = 0.357302
+[14] prob of solution |7> = 0.400186
+[15] prob of solution |7> = 0.443607
+[16] prob of solution |7> = 0.487633
+[17] prob of solution |7> = 0.531747
+[18] prob of solution |7> = 0.575715
+[19] prob of solution |7> = 0.619013
+[20] prob of solution |7> = 0.661341
+[21] prob of solution |7> = 0.702406
+[22] prob of solution |7> = 0.741945
+[23] prob of solution |7> = 0.77956
+[24] prob of solution |7> = 0.815044
+[25] prob of solution |7> = 0.848068
+[26] prob of solution |7> = 0.878227
+[27] prob of solution |7> = 0.905497
+[28] prob of solution |7> = 0.92954
+[29] prob of solution |7> = 0.950198
+[30] prob of solution |7> = 0.967418
+[31] prob of solution |7> = 0.981078
+[32] prob of solution |7> = 0.99082
+[33] prob of solution |7> = 0.996577
+[34] prob of solution |7> = 0.998383
+[35] prob of solution |7> = 0.996615
+Dumping statevector to file: DESKTOP_output/zfp/MEM_zfp_COMP_11/SV_test_case_128_-a_1e-4_-d.out.data
+free(): invalid pointer
+Aborted (core dumped)
+heaptrack stats:
+	allocations:          	425642
+	leaked allocations:   	70
+	temporary allocations:	3
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.223813.gz"

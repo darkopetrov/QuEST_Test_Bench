@@ -1,0 +1,54 @@
+heaptrack output will be written to "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.221282.gz"
+starting application, this might take some time...
+Argv[1]: zfp
+nx: 32
+block_size: 32
+Maximum values per block: 32
+numQubits: 10, numElems: 1024, numReps: 26
+Original size: 16384 bytes 
+n_blocks: 32, values_per_block: 32
+Creating 32 blocks for memory, Max block size 88, total Max size: 2816
+Creating 32 blocks for memory, Max block size 88, total Max size: 2816
+Allocating Raw Data block with data size: 256
+Using double raw data blocks!
+Allocating Raw Data block with data size: 256
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.00875905
+[1] prob of solution |7> = 0.0241312
+[2] prob of solution |7> = 0.0469017
+[3] prob of solution |7> = 0.0766152
+[4] prob of solution |7> = 0.112813
+[5] prob of solution |7> = 0.15515
+[6] prob of solution |7> = 0.202731
+[7] prob of solution |7> = 0.254537
+[8] prob of solution |7> = 0.310189
+[9] prob of solution |7> = 0.36822
+[10] prob of solution |7> = 0.428824
+[11] prob of solution |7> = 0.490273
+[12] prob of solution |7> = 0.551386
+[13] prob of solution |7> = 0.611497
+[14] prob of solution |7> = 0.669512
+[15] prob of solution |7> = 0.724951
+[16] prob of solution |7> = 0.777742
+[17] prob of solution |7> = 0.82306
+[18] prob of solution |7> = 0.865113
+[19] prob of solution |7> = 0.902059
+[20] prob of solution |7> = 0.933045
+[21] prob of solution |7> = 0.955105
+[22] prob of solution |7> = 0.973927
+[23] prob of solution |7> = 0.981169
+[24] prob of solution |7> = 0.983104
+[25] prob of solution |7> = 0.973445
+Dumping statevector to file: DESKTOP_output/zfp/MEM_zfp_COMP_10/SV_test_case_32_-r_16_-d.out.data
+free(): invalid pointer
+Aborted (core dumped)
+heaptrack stats:
+	allocations:          	540151
+	leaked allocations:   	118
+	temporary allocations:	3
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.221282.gz"

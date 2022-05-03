@@ -1,0 +1,230 @@
+heaptrack output will be written to "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.663288.gz"
+starting application, this might take some time...
+Argv[1]: zfp
+nx: 512
+block_size: 512
+Maximum values per block: 512
+numQubits: 16, numElems: 65536, numReps: 202
+Original size: 1048576 bytes 
+n_blocks: 128, values_per_block: 512
+Creating 128 blocks for memory, Max block size 4360, total Max size: 558080
+Creating 128 blocks for memory, Max block size 4360, total Max size: 558080
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Allocating Raw Data block with data size: 4096
+Using double raw data blocks!
+Running initZeroState
+Running initBlankState
+Running initPlusState
+[0] prob of solution |7> = 0.000221108
+[1] prob of solution |7> = 0.00053864
+[2] prob of solution |7> = 0.000928763
+[3] prob of solution |7> = 0.00147066
+[4] prob of solution |7> = 0.00211859
+[5] prob of solution |7> = 0.00288323
+[6] prob of solution |7> = 0.00380958
+[7] prob of solution |7> = 0.00486264
+[8] prob of solution |7> = 0.00602035
+[9] prob of solution |7> = 0.00735774
+[10] prob of solution |7> = 0.00874406
+[11] prob of solution |7> = 0.0103545
+[12] prob of solution |7> = 0.0119579
+[13] prob of solution |7> = 0.0138162
+[14] prob of solution |7> = 0.0156622
+[15] prob of solution |7> = 0.0177549
+[16] prob of solution |7> = 0.0198516
+[17] prob of solution |7> = 0.0221584
+[18] prob of solution |7> = 0.0244451
+[19] prob of solution |7> = 0.0269641
+[20] prob of solution |7> = 0.0295699
+[21] prob of solution |7> = 0.0322588
+[22] prob of solution |7> = 0.0351648
+[23] prob of solution |7> = 0.0380041
+[24] prob of solution |7> = 0.0411761
+[25] prob of solution |7> = 0.0442038
+[26] prob of solution |7> = 0.0475367
+[27] prob of solution |7> = 0.0507824
+[28] prob of solution |7> = 0.0543894
+[29] prob of solution |7> = 0.0578391
+[30] prob of solution |7> = 0.0616693
+[31] prob of solution |7> = 0.0653469
+[32] prob of solution |7> = 0.069368
+[33] prob of solution |7> = 0.0732694
+[34] prob of solution |7> = 0.0774134
+[35] prob of solution |7> = 0.0815928
+[36] prob of solution |7> = 0.085853
+[37] prob of solution |7> = 0.0902423
+[38] prob of solution |7> = 0.0946729
+[39] prob of solution |7> = 0.0991881
+[40] prob of solution |7> = 0.103828
+[41] prob of solution |7> = 0.108531
+[42] prob of solution |7> = 0.113318
+[43] prob of solution |7> = 0.118209
+[44] prob of solution |7> = 0.12309
+[45] prob of solution |7> = 0.128255
+[46] prob of solution |7> = 0.133391
+[47] prob of solution |7> = 0.138834
+[48] prob of solution |7> = 0.144036
+[49] prob of solution |7> = 0.149596
+[50] prob of solution |7> = 0.154909
+[51] prob of solution |7> = 0.160686
+[52] prob of solution |7> = 0.1662
+[53] prob of solution |7> = 0.172248
+[54] prob of solution |7> = 0.177792
+[55] prob of solution |7> = 0.183963
+[56] prob of solution |7> = 0.189691
+[57] prob of solution |7> = 0.196047
+[58] prob of solution |7> = 0.20188
+[59] prob of solution |7> = 0.208466
+[60] prob of solution |7> = 0.214462
+[61] prob of solution |7> = 0.221202
+[62] prob of solution |7> = 0.22737
+[63] prob of solution |7> = 0.234135
+[64] prob of solution |7> = 0.240442
+[65] prob of solution |7> = 0.247314
+[66] prob of solution |7> = 0.253883
+[67] prob of solution |7> = 0.260795
+[68] prob of solution |7> = 0.267473
+[69] prob of solution |7> = 0.274474
+[70] prob of solution |7> = 0.281291
+[71] prob of solution |7> = 0.288331
+[72] prob of solution |7> = 0.295234
+[73] prob of solution |7> = 0.302361
+[74] prob of solution |7> = 0.309259
+[75] prob of solution |7> = 0.316458
+[76] prob of solution |7> = 0.323644
+[77] prob of solution |7> = 0.331139
+[78] prob of solution |7> = 0.33817
+[79] prob of solution |7> = 0.345467
+[80] prob of solution |7> = 0.35258
+[81] prob of solution |7> = 0.36009
+[82] prob of solution |7> = 0.367272
+[83] prob of solution |7> = 0.374693
+[84] prob of solution |7> = 0.381919
+[85] prob of solution |7> = 0.389415
+[86] prob of solution |7> = 0.396536
+[87] prob of solution |7> = 0.403935
+[88] prob of solution |7> = 0.41108
+[89] prob of solution |7> = 0.418509
+[90] prob of solution |7> = 0.425751
+[91] prob of solution |7> = 0.433201
+[92] prob of solution |7> = 0.440533
+[93] prob of solution |7> = 0.447886
+[94] prob of solution |7> = 0.455191
+[95] prob of solution |7> = 0.462618
+[96] prob of solution |7> = 0.46998
+[97] prob of solution |7> = 0.477262
+[98] prob of solution |7> = 0.484771
+[99] prob of solution |7> = 0.492059
+[100] prob of solution |7> = 0.499624
+[101] prob of solution |7> = 0.506838
+[102] prob of solution |7> = 0.514372
+[103] prob of solution |7> = 0.521488
+[104] prob of solution |7> = 0.529174
+[105] prob of solution |7> = 0.536347
+[106] prob of solution |7> = 0.544035
+[107] prob of solution |7> = 0.55129
+[108] prob of solution |7> = 0.558998
+[109] prob of solution |7> = 0.566277
+[110] prob of solution |7> = 0.574147
+[111] prob of solution |7> = 0.580994
+[112] prob of solution |7> = 0.588755
+[113] prob of solution |7> = 0.595783
+[114] prob of solution |7> = 0.603694
+[115] prob of solution |7> = 0.610572
+[116] prob of solution |7> = 0.618365
+[117] prob of solution |7> = 0.62512
+[118] prob of solution |7> = 0.632768
+[119] prob of solution |7> = 0.639535
+[120] prob of solution |7> = 0.647092
+[121] prob of solution |7> = 0.653713
+[122] prob of solution |7> = 0.661384
+[123] prob of solution |7> = 0.667884
+[124] prob of solution |7> = 0.675305
+[125] prob of solution |7> = 0.681816
+[126] prob of solution |7> = 0.689315
+[127] prob of solution |7> = 0.695854
+[128] prob of solution |7> = 0.703257
+[129] prob of solution |7> = 0.709592
+[130] prob of solution |7> = 0.716776
+[131] prob of solution |7> = 0.72288
+[132] prob of solution |7> = 0.729968
+[133] prob of solution |7> = 0.736062
+[134] prob of solution |7> = 0.742951
+[135] prob of solution |7> = 0.748855
+[136] prob of solution |7> = 0.755697
+[137] prob of solution |7> = 0.761538
+[138] prob of solution |7> = 0.768311
+[139] prob of solution |7> = 0.773898
+[140] prob of solution |7> = 0.780416
+[141] prob of solution |7> = 0.785763
+[142] prob of solution |7> = 0.792194
+[143] prob of solution |7> = 0.797465
+[144] prob of solution |7> = 0.803972
+[145] prob of solution |7> = 0.809289
+[146] prob of solution |7> = 0.815498
+[147] prob of solution |7> = 0.820667
+[148] prob of solution |7> = 0.826552
+[149] prob of solution |7> = 0.831401
+[150] prob of solution |7> = 0.837136
+[151] prob of solution |7> = 0.841763
+[152] prob of solution |7> = 0.847429
+[153] prob of solution |7> = 0.852021
+[154] prob of solution |7> = 0.857686
+[155] prob of solution |7> = 0.862121
+[156] prob of solution |7> = 0.867514
+[157] prob of solution |7> = 0.871747
+[158] prob of solution |7> = 0.87679
+[159] prob of solution |7> = 0.880717
+[160] prob of solution |7> = 0.885564
+[161] prob of solution |7> = 0.889402
+[162] prob of solution |7> = 0.894113
+[163] prob of solution |7> = 0.897825
+[164] prob of solution |7> = 0.90261
+[165] prob of solution |7> = 0.906267
+[166] prob of solution |7> = 0.910725
+[167] prob of solution |7> = 0.914004
+[168] prob of solution |7> = 0.918144
+[169] prob of solution |7> = 0.921357
+[170] prob of solution |7> = 0.925213
+[171] prob of solution |7> = 0.928378
+[172] prob of solution |7> = 0.932249
+[173] prob of solution |7> = 0.935058
+[174] prob of solution |7> = 0.938654
+[175] prob of solution |7> = 0.941147
+[176] prob of solution |7> = 0.94448
+[177] prob of solution |7> = 0.946988
+[178] prob of solution |7> = 0.950168
+[179] prob of solution |7> = 0.952334
+[180] prob of solution |7> = 0.955068
+[181] prob of solution |7> = 0.956978
+[182] prob of solution |7> = 0.959353
+[183] prob of solution |7> = 0.961035
+[184] prob of solution |7> = 0.963475
+[185] prob of solution |7> = 0.965048
+[186] prob of solution |7> = 0.967328
+[187] prob of solution |7> = 0.968544
+[188] prob of solution |7> = 0.97061
+[189] prob of solution |7> = 0.971587
+[190] prob of solution |7> = 0.973189
+[191] prob of solution |7> = 0.973882
+[192] prob of solution |7> = 0.975569
+[193] prob of solution |7> = 0.976202
+[194] prob of solution |7> = 0.977575
+[195] prob of solution |7> = 0.978171
+[196] prob of solution |7> = 0.979227
+[197] prob of solution |7> = 0.979477
+[198] prob of solution |7> = 0.98033
+[199] prob of solution |7> = 0.980254
+[200] prob of solution |7> = 0.980897
+[201] prob of solution |7> = 0.980821
+Dumping statevector to file: DESKTOP_output/zfp/MEM_zfp_COMP_16/SV_test_case_512_-a_1e-4_-d.out.data
+free(): invalid pointer
+Aborted (core dumped)
+heaptrack stats:
+	allocations:          	28862193
+	leaked allocations:   	45
+	temporary allocations:	3
+Heaptrack finished! Now run the following to investigate the data:
+
+  heaptrack --analyze "/home/greg/quantum/QuEST_Test_Bench/heaptrack.grover.663288.gz"
